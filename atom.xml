@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-05-21T16:54:49.579Z</updated>
+  <updated>2020-05-21T18:45:56.083Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,13 +17,51 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Hexo常用博客更新代码</title>
+    <link href="http://yoursite.com/2020/05/21/hello-world/"/>
+    <id>http://yoursite.com/2020/05/21/hello-world/</id>
+    <published>2020-05-21T15:12:46.000Z</published>
+    <updated>2020-05-21T18:45:56.083Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Hexo常用代码备注"><a href="#Hexo常用代码备注" class="headerlink" title="Hexo常用代码备注"></a>Hexo常用代码备注</h2><h3 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo-cli</span><br></pre></td></tr></table></figure><h3 id="初始化博客"><a href="#初始化博客" class="headerlink" title="初始化博客"></a>初始化博客</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init blog</span><br></pre></td></tr></table></figure><h3 id="撰写新博客文章"><a href="#撰写新博客文章" class="headerlink" title="撰写新博客文章"></a>撰写新博客文章</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"The name of your new post"</span></span><br></pre></td></tr></table></figure><h3 id="生成静态文件"><a href="#生成静态文件" class="headerlink" title="生成静态文件"></a>生成静态文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ hexo g</span><br></pre></td></tr></table></figure><h3 id="将静态网页文件部署在远程网页中"><a href="#将静态网页文件部署在远程网页中" class="headerlink" title="将静态网页文件部署在远程网页中"></a>将静态网页文件部署在远程网页中</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure><h3 id="临时展示（localhost-4000）"><a href="#临时展示（localhost-4000）" class="headerlink" title="临时展示（localhost:4000）"></a>临时展示（localhost:4000）</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo s</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Hexo常用代码备注&quot;&gt;&lt;a href=&quot;#Hexo常用代码备注&quot; class=&quot;headerlink&quot; title=&quot;Hexo常用代码备注&quot;&gt;&lt;/a&gt;Hexo常用代码备注&lt;/h2&gt;&lt;h3 id=&quot;安装Hexo&quot;&gt;&lt;a href=&quot;#安装Hexo&quot; class=&quot;
+      
+    
+    </summary>
+    
+    
+      <category term="Hexo" scheme="http://yoursite.com/categories/Hexo/"/>
+    
+    
+      <category term="Blog" scheme="http://yoursite.com/tags/Blog/"/>
+    
+      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
+    
+      <category term="script" scheme="http://yoursite.com/tags/script/"/>
+    
+  </entry>
+  
+  <entry>
     <title>与Galgame最初的邂逅————Little Busters, Key社与友情</title>
     <link href="http://yoursite.com/2020/05/21/test-my-site/"/>
     <id>http://yoursite.com/2020/05/21/test-my-site/</id>
     <published>2020-05-21T15:12:46.000Z</published>
-    <updated>2020-05-21T16:54:49.579Z</updated>
+    <updated>2020-05-21T18:58:27.687Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="邂逅"><a href="#邂逅" class="headerlink" title="邂逅"></a>邂逅</h1><ul><li>高三暑假那年，由于在卓越联盟的自主招生中侥幸被选中，我成为了同济大学2014级预录取的学生。那时，距离高考尚有一个多月的闲暇时光，自认为即使没有复习也不至于连高考一本线都过不了的我，不同于其他正在继续奋战的学生，早早地卸下了升学的重担，开始琢磨自己那高考前的闲暇时光该如何度过。借用东晋诗人陶渊明先生的话来说，那时的我就像“久在樊笼里，复得返自然”的鸟儿那般。只是，那时的我由于严苛的家教，没有自己的手机和电脑。暂时不用学习，却又不知道玩什么好的我，只好将目光瞄准了同学们平常津津乐道的ACG领域。</li></ul>]]></content>
     
     <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;邂逅&quot;&gt;&lt;a href=&quot;#邂逅&quot; class=&quot;headerlink&quot; title=&quot;邂逅&quot;&gt;&lt;/a&gt;邂逅&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;高三暑假那年，由于在卓越联盟的自主招生中侥幸被选中，我成为了同济大学2014级预录取的学生。那时，距离高考尚有一个多月的闲暇时光
+      
     
     </summary>
     
@@ -38,28 +76,6 @@
       <category term="Galgame" scheme="http://yoursite.com/tags/Galgame/"/>
     
       <category term="友情" scheme="http://yoursite.com/tags/%E5%8F%8B%E6%83%85/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Blog of Charles Queen</title>
-    <link href="http://yoursite.com/2020/05/21/hello-world/"/>
-    <id>http://yoursite.com/2020/05/21/hello-world/</id>
-    <published>2020-05-21T15:09:20.660Z</published>
-    <updated>2020-05-21T15:38:51.903Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#
-      
-    
-    </summary>
-    
-    
     
   </entry>
   
