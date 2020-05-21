@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-05-21T16:49:19.142Z</updated>
+  <updated>2020-05-21T16:54:49.579Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>与Galgame最初的邂逅</title>
+    <title>与Galgame最初的邂逅————Little Busters, Key社与友情</title>
     <link href="http://yoursite.com/2020/05/21/test-my-site/"/>
     <id>http://yoursite.com/2020/05/21/test-my-site/</id>
     <published>2020-05-21T15:12:46.000Z</published>
-    <updated>2020-05-21T16:49:19.142Z</updated>
+    <updated>2020-05-21T16:54:49.579Z</updated>
     
     <summary type="html">
     
@@ -30,6 +30,14 @@
     
       <category term="Galgame" scheme="http://yoursite.com/categories/Galgame/"/>
     
+    
+      <category term="ACG" scheme="http://yoursite.com/tags/ACG/"/>
+    
+      <category term="Key社" scheme="http://yoursite.com/tags/Key%E7%A4%BE/"/>
+    
+      <category term="Galgame" scheme="http://yoursite.com/tags/Galgame/"/>
+    
+      <category term="友情" scheme="http://yoursite.com/tags/%E5%8F%8B%E6%83%85/"/>
     
   </entry>
   
