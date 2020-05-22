@@ -5,8 +5,6 @@ Allow: /categories/
 Allow: /tags/
 Allow: /about/
 
-Disallow: /vendors/
-Disallow: /fonts/
-Disallow: /fancybox/
+Disallow: 
 
 Sitemap: https://charlesqueen.github.io/sitemap.xml
