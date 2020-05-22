@@ -452,6 +452,9 @@
           
 
   
+    <div id="gitalk-container"></div>
+
+  
 
 
 
@@ -777,6 +780,23 @@
 
 
 
+
+   
+   <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+   <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+   <script src="https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.min.js"></script>
+   <script type="text/javascript">
+        var gitalk = new Gitalk({
+          clientID: 'f51c5d9ee58a37403be4',
+          clientSecret: 'b6cfb8880a23c1b6aec0668f1f098e5f54f01461',
+          repo: 'CharlesQueen.github.io',
+          owner: 'CharlesQueen',
+          admin: ['CharlesQueen'],
+          id: md5(window.location.pathname),
+          distractionFreeMode: 'true'
+        })
+        gitalk.render('gitalk-container')
+       </script>
 
 
   
