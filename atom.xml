@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://charlesqueen.github.io/"/>
-  <updated>2020-05-21T23:11:38.921Z</updated>
+  <updated>2020-05-22T09:18:13.568Z</updated>
   <id>https://charlesqueen.github.io/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>与Galgame最初的邂逅————Little Busters, Key社与友情</title>
+    <link href="https://charlesqueen.github.io/2020/05/22/test-my-site/"/>
+    <id>https://charlesqueen.github.io/2020/05/22/test-my-site/</id>
+    <published>2020-05-22T05:12:46.000Z</published>
+    <updated>2020-05-22T09:18:13.568Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" href="/css/owl.css"><link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div align="middle">    <img src="Little Busters!.jpg" width="50%" height="50%" title="ともしび" alt=""/>    <audio src="麻枝准 - ともしび.mp3" style="max-height :100%; max-width: 100%; display: block; margin-left: auto; margin-right: auto;" controls="controls" autoplay="autoplay" loop="loop" preload="meta">    </audio></div><h1 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h1><ul><li>高三下学期那年，由于在卓越联盟的自主招生中侥幸被选中，我成为了同济大学2014级预录取的学生。那时，距离高考尚有一个多月的闲暇时光，自认为即使没有复习也不至于连高考一本线都过不了的我，不同于其他正在继续奋战的学生，早早地卸下了升学的重担，开始琢磨自己那高考前的闲暇时光该如何度过。借用东晋诗人陶渊明先生的话来说，那时的我就像“久在樊笼里，复得返自然”的鸟儿那般。只是，那时的我由于严苛的家教，没有自己的手机和电脑。暂时不用学习，却又不知道玩什么好的我，只好将目光瞄准了同学们平常津津乐道的ACG领域。曾经的我对于ACG领域一无所知，以至于闹出过不少笑话。一次，我和高中结构赛的同学一起在空教室里休息，他在休息期间用自己的手机放了一首歌，名叫残酷な天使のテ-ゼ。我也曾听过这首歌，是一首现代机战动画的主题曲。当时的我依稀记得电视中曾经报道过的形象，无意之中将其与高达混淆了。而非常有意思的是，作为情商为负值的我很渴望和他人打好关系，于是强行以此为搭话的主题，却落得了一个被人嘲讽连新世纪福音战士都不知道的下场。这件事对于我的触动很大，也成为了我进入大学以后开始恶补ACG方面的知识的缘由之一。</li></ul><h1 id="交集"><a href="#交集" class="headerlink" title="交集"></a>交集</h1><ul><li>之前经历的那件事只是导致我开始和ACG这一领域不断产生交集的导火索，而接下来的一次意外经历才是我会去尝试扣开Key社动画与游戏大门的真正原因。就在那次混淆事件不久之后，在一次去食堂打饭的路上，正在队伍中等待的我忽然瞥见前排的一名女生正在用手机观看动画，那个动画的画风远远优于我孩提时所见过的各类国产动画的画风。暖色的背景，绚丽的CG，精致的人物，这些特点都吸引着我去发问，去探求。因此，出于好奇，我向她发问了。然后，我第一次知道了Clannad，第一次知道了Key社，也第一次知道了制作这部由游戏改编而来的动画的动画公司的名字——京阿尼。于是，正愁着如何探索ACG这片广淼的海域的我有了第一个落锚点。而Key社，Clannad和京阿尼也成为了我最初进入ACG领域时最常搜索的三个词。</li></ul><h1 id="邂逅"><a href="#邂逅" class="headerlink" title="邂逅"></a>邂逅</h1><ul><li>从那以后，我便一头扎进了ACG的海洋。那时的母亲认为我哪怕拿到了预录取，仍然有可能在高考中意外失足，最后名落孙山，连一本线都到不了，所以她依旧没有放松对我的约束，仍然禁止我去追求学习以外的事物。</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; href=&quot;/css/owl.css&quot;&gt;&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;
+      
+    
+    </summary>
+    
+    
+      <category term="Galgame" scheme="https://CharlesQueen.github.io/categories/Galgame/"/>
+    
+    
+      <category term="ACG" scheme="https://CharlesQueen.github.io/tags/ACG/"/>
+    
+      <category term="Key社" scheme="https://CharlesQueen.github.io/tags/Key%E7%A4%BE/"/>
+    
+      <category term="Galgame" scheme="https://CharlesQueen.github.io/tags/Galgame/"/>
+    
+      <category term="友情" scheme="https://CharlesQueen.github.io/tags/%E5%8F%8B%E6%83%85/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo常用博客更新代码</title>
@@ -43,38 +75,6 @@
       <category term="Hexo" scheme="https://CharlesQueen.github.io/tags/Hexo/"/>
     
       <category term="script" scheme="https://CharlesQueen.github.io/tags/script/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>与Galgame最初的邂逅————Little Busters, Key社与友情</title>
-    <link href="https://charlesqueen.github.io/2020/05/21/test-my-site/"/>
-    <id>https://charlesqueen.github.io/2020/05/21/test-my-site/</id>
-    <published>2020-05-21T15:12:46.000Z</published>
-    <updated>2020-05-21T23:17:24.114Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" href="/css/owl.css"><link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div align="middle">    <img src="Little Busters!.jpg" width="50%" height="50%" title="ともしび" alt=""/>    <audio src="麻枝准 - ともしび.mp3" style="max-height :100%; max-width: 100%; display: block; margin-left: auto; margin-right: auto;" controls="controls" autoplay="autoplay" loop="loop" preload="meta">    </audio></div><h1 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h1><ul><li>高三暑假那年，由于在卓越联盟的自主招生中侥幸被选中，我成为了同济大学2014级预录取的学生。那时，距离高考尚有一个多月的闲暇时光，自认为即使没有复习也不至于连高考一本线都过不了的我，不同于其他正在继续奋战的学生，早早地卸下了升学的重担，开始琢磨自己那高考前的闲暇时光该如何度过。借用东晋诗人陶渊明先生的话来说，那时的我就像“久在樊笼里，复得返自然”的鸟儿那般。只是，那时的我由于严苛的家教，没有自己的手机和电脑。暂时不用学习，却又不知道玩什么好的我，只好将目光瞄准了同学们平常津津乐道的ACG领域。曾经的我对于ACG领域一无所知，以至于闹出过不少笑话。一次，我和高中结构赛的同学一起在空教室里休息，他在休息期间用自己的手机放了一首歌，名叫残酷な天使のテ-ゼ。我也曾听过这首歌，是一首现代机战动画的主题曲。当时的我依稀记得电视中曾经报道过的形象，无意之中将其与高达混淆了。而非常有意思的是，作为情商为负值的我很渴望和他人打好关系，于是强行以此为搭话的主题，却落得了一个被人嘲讽连新世纪福音战士都不知道的下场。这件事对于我的触动很大，也成为了我进入大学以后开始恶补ACG方面的知识的缘由之一。</li></ul><h1 id="邂逅"><a href="#邂逅" class="headerlink" title="邂逅"></a>邂逅</h1><ul><li>之前经历的那件事只是导致我开始和ACG这一领域不断产生交集的导火索，而接下来的一次意外经历才是我会去尝试扣开Key社动画与游戏大门的真正原因。</li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; href=&quot;/css/owl.css&quot;&gt;&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;
-      
-    
-    </summary>
-    
-    
-      <category term="Galgame" scheme="https://CharlesQueen.github.io/categories/Galgame/"/>
-    
-    
-      <category term="ACG" scheme="https://CharlesQueen.github.io/tags/ACG/"/>
-    
-      <category term="Key社" scheme="https://CharlesQueen.github.io/tags/Key%E7%A4%BE/"/>
-    
-      <category term="Galgame" scheme="https://CharlesQueen.github.io/tags/Galgame/"/>
-    
-      <category term="友情" scheme="https://CharlesQueen.github.io/tags/%E5%8F%8B%E6%83%85/"/>
     
   </entry>
   
