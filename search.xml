@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>青春纪行——大三期末与端学弟的日本自由行</title>
+    <url>/2020/05/24/adolescence/</url>
+    <content><![CDATA[<link rel="stylesheet" href="/css/owl.css"><link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div align="middle">
+    <img src="07.png" width="50%" height="50%" title="Little Busters!" alt=""/>
+    <audio src="Rita - Little Busters!.mp3" style="max-height :100%; max-width: 100%; display: block; margin-left: auto; margin-right: auto;" controls="controls" autoplay="autoplay" loop="loop" preload="meta">
+    </audio>
+</div>]]></content>
+      <categories>
+        <category>Travel Notes</category>
+      </categories>
+      <tags>
+        <tag>青春</tag>
+        <tag>旅行</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo常用博客更新代码</title>
     <url>/2020/05/21/hello-world/</url>
     <content><![CDATA[<link rel="stylesheet" href="/css/owl.css"><link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div align="middle">
@@ -97,11 +113,11 @@
         <category>Galgame</category>
       </categories>
       <tags>
+        <tag>青春</tag>
         <tag>ACG</tag>
         <tag>Key社</tag>
         <tag>Galgame</tag>
         <tag>友情</tag>
-        <tag>青春</tag>
       </tags>
   </entry>
 </search>

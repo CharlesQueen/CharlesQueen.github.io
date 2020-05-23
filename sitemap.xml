@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://charlesqueen.github.io/about/index.html</loc>
+    
+    <lastmod>2020-05-23T22:01:48.576Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://charlesqueen.github.io/2020/05/24/adolescence/</loc>
+    
+    <lastmod>2020-05-23T21:58:49.324Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://charlesqueen.github.io/2020/05/20/spider-example/</loc>
     
     <lastmod>2020-05-22T11:22:22.757Z</lastmod>
@@ -33,13 +47,6 @@
     <loc>https://charlesqueen.github.io/categories/index.html</loc>
     
     <lastmod>2020-05-21T16:48:39.200Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://charlesqueen.github.io/about/index.html</loc>
-    
-    <lastmod>2020-05-21T16:07:20.379Z</lastmod>
     
   </url>
   
