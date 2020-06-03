@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://charlesqueen.github.io/"/>
-  <updated>2020-06-03T20:33:22.245Z</updated>
+  <updated>2020-06-03T20:47:11.665Z</updated>
   <id>https://charlesqueen.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://charlesqueen.github.io/2020/06/04/rec-1/"/>
     <id>https://charlesqueen.github.io/2020/06/04/rec-1/</id>
     <published>2020-06-03T20:05:45.000Z</published>
-    <updated>2020-06-03T20:33:22.245Z</updated>
+    <updated>2020-06-03T20:47:11.665Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" href="/css/owl.css"><link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div align="middle">    <img src="上月由良.png" width="50%" height="50%" title="恸哭" alt=""/>    <audio src="MANYO - 恸哭.mp3" style="max-height :100%; max-width: 100%; display: block; margin-left: auto; margin-right: auto;" controls="controls" autoplay="autoplay" loop="loop" preload="meta">    </audio></div><br><h1 id="自制乐谱"><a href="#自制乐谱" class="headerlink" title="自制乐谱"></a>自制乐谱</h1><p>本人通常喜欢以Charles Queen以及Kingboghost这两个昵称为在网络上社交所用的化名。以下乐谱皆为本人亲手制作。</p><div align="middle">    <embed src="恸哭.pdf" type="application/pdf" width="100%" height="800px" internalinstanceid="81" /></div>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" href="/css/owl.css"><link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div align="middle">    <img src="上月由良.png" width="50%" height="50%" title="恸哭" alt=""/>    <audio src="MANYO - 恸哭.mp3" style="max-height :100%; max-width: 100%; display: block; margin-left: auto; margin-right: auto;" controls="controls" autoplay="autoplay" loop="loop" preload="meta">    </audio></div><br><h1 id="自制乐谱"><a href="#自制乐谱" class="headerlink" title="自制乐谱"></a>自制乐谱</h1><p>本人通常喜欢以Charles Queen以及Kingboghost这两个昵称为在网络上社交所用的化名。以下乐谱皆为本人亲手制作。</p><h1 id="乐谱MIDI试听"><a href="#乐谱MIDI试听" class="headerlink" title="乐谱MIDI试听"></a>乐谱MIDI试听</h1><div align="middle">    <audio src="慟哭.mp3" style="max-height :100%; max-width: 100%; display: block; margin-left: auto; margin-right: auto;" controls="controls" loop="loop" preload="meta">    </audio></div><h1 id="乐谱PDF"><a href="#乐谱PDF" class="headerlink" title="乐谱PDF"></a>乐谱PDF</h1><div align="middle">    <embed src="恸哭.pdf" type="application/pdf" width="100%" height="800px" internalinstanceid="81" /></div>]]></content>
     
     <summary type="html">
     
@@ -102,6 +102,8 @@
       <category term="Galgame" scheme="https://CharlesQueen.github.io/categories/Galgame/"/>
     
     
+      <category term="青春" scheme="https://CharlesQueen.github.io/tags/%E9%9D%92%E6%98%A5/"/>
+    
       <category term="ACG" scheme="https://CharlesQueen.github.io/tags/ACG/"/>
     
       <category term="Key社" scheme="https://CharlesQueen.github.io/tags/Key%E7%A4%BE/"/>
@@ -109,8 +111,6 @@
       <category term="Galgame" scheme="https://CharlesQueen.github.io/tags/Galgame/"/>
     
       <category term="友情" scheme="https://CharlesQueen.github.io/tags/%E5%8F%8B%E6%83%85/"/>
-    
-      <category term="青春" scheme="https://CharlesQueen.github.io/tags/%E9%9D%92%E6%98%A5/"/>
     
       <category term="Little Busters" scheme="https://CharlesQueen.github.io/tags/Little-Busters/"/>
     
@@ -138,6 +138,8 @@
       <category term="Galgame" scheme="https://CharlesQueen.github.io/categories/Galgame/"/>
     
     
+      <category term="青春" scheme="https://CharlesQueen.github.io/tags/%E9%9D%92%E6%98%A5/"/>
+    
       <category term="ACG" scheme="https://CharlesQueen.github.io/tags/ACG/"/>
     
       <category term="Key社" scheme="https://CharlesQueen.github.io/tags/Key%E7%A4%BE/"/>
@@ -145,8 +147,6 @@
       <category term="Galgame" scheme="https://CharlesQueen.github.io/tags/Galgame/"/>
     
       <category term="友情" scheme="https://CharlesQueen.github.io/tags/%E5%8F%8B%E6%83%85/"/>
-    
-      <category term="青春" scheme="https://CharlesQueen.github.io/tags/%E9%9D%92%E6%98%A5/"/>
     
       <category term="Little Busters" scheme="https://CharlesQueen.github.io/tags/Little-Busters/"/>
     

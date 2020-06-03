@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>青春纪行——大三期末与端学弟的日本自由行</title>
+    <url>/2020/05/31/adolescence/</url>
+    <content><![CDATA[<link rel="stylesheet" href="/css/owl.css"><link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div align="middle">
+    <img src="07.png" width="50%" height="50%" title="Little Busters!" alt=""/>
+    <audio src="Rita - Little Busters!.mp3" style="max-height :100%; max-width: 100%; display: block; margin-left: auto; margin-right: auto;" controls="controls" autoplay="autoplay" loop="loop" preload="meta">
+    </audio>
+</div>]]></content>
+      <categories>
+        <category>Travel Notes</category>
+      </categories>
+      <tags>
+        <tag>青春</tag>
+        <tag>旅行</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Little Busters——青春与梦想远航的第一站</title>
     <url>/2020/05/31/lb1/</url>
     <content><![CDATA[<link rel="stylesheet" href="/css/owl.css"><link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div align="middle">
@@ -57,11 +73,11 @@
         <category>Galgame</category>
       </categories>
       <tags>
+        <tag>青春</tag>
         <tag>ACG</tag>
         <tag>Key社</tag>
         <tag>Galgame</tag>
         <tag>友情</tag>
-        <tag>青春</tag>
         <tag>Little Busters</tag>
       </tags>
   </entry>
@@ -112,7 +128,12 @@
 <br>
 
 <h1 id="自制乐谱"><a href="#自制乐谱" class="headerlink" title="自制乐谱"></a>自制乐谱</h1><p>本人通常喜欢以Charles Queen以及Kingboghost这两个昵称为在网络上社交所用的化名。以下乐谱皆为本人亲手制作。</p>
-<div align="middle">
+<h1 id="乐谱MIDI试听"><a href="#乐谱MIDI试听" class="headerlink" title="乐谱MIDI试听"></a>乐谱MIDI试听</h1><div align="middle">
+    <audio src="慟哭.mp3" style="max-height :100%; max-width: 100%; display: block; margin-left: auto; margin-right: auto;" controls="controls" loop="loop" preload="meta">
+    </audio>
+</div>
+
+<h1 id="乐谱PDF"><a href="#乐谱PDF" class="headerlink" title="乐谱PDF"></a>乐谱PDF</h1><div align="middle">
     <embed src="恸哭.pdf" type="application/pdf" width="100%" height="800px" internalinstanceid="81" />
 </div>]]></content>
       <categories>
@@ -165,22 +186,6 @@
       </tags>
   </entry>
   <entry>
-    <title>青春纪行——大三期末与端学弟的日本自由行</title>
-    <url>/2020/05/31/adolescence/</url>
-    <content><![CDATA[<link rel="stylesheet" href="/css/owl.css"><link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div align="middle">
-    <img src="07.png" width="50%" height="50%" title="Little Busters!" alt=""/>
-    <audio src="Rita - Little Busters!.mp3" style="max-height :100%; max-width: 100%; display: block; margin-left: auto; margin-right: auto;" controls="controls" autoplay="autoplay" loop="loop" preload="meta">
-    </audio>
-</div>]]></content>
-      <categories>
-        <category>Travel Notes</category>
-      </categories>
-      <tags>
-        <tag>青春</tag>
-        <tag>旅行</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>与Galgame最初的邂逅————Little Busters, Key社与友情</title>
     <url>/2020/05/22/test-my-site/</url>
     <content><![CDATA[<link rel="stylesheet" href="/css/owl.css"><link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div align="middle">
@@ -212,11 +217,11 @@
         <category>Galgame</category>
       </categories>
       <tags>
+        <tag>青春</tag>
         <tag>ACG</tag>
         <tag>Key社</tag>
         <tag>Galgame</tag>
         <tag>友情</tag>
-        <tag>青春</tag>
         <tag>Little Busters</tag>
       </tags>
   </entry>
