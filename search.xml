@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>青春纪行——大三期末与端学弟的日本自由行</title>
+    <url>/2020/05/31/adolescence/</url>
+    <content><![CDATA[<link rel="stylesheet" href="/css/owl.css"><link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div align="middle">
+    <img src="07.png" width="50%" height="50%" title="Little Busters!" alt=""/>
+    <audio src="Rita - Little Busters!.mp3" style="max-height :100%; max-width: 100%; display: block; margin-left: auto; margin-right: auto;" controls="controls" autoplay="autoplay" loop="loop" preload="meta">
+    </audio>
+</div>]]></content>
+      <categories>
+        <category>Travel Notes</category>
+      </categories>
+      <tags>
+        <tag>青春</tag>
+        <tag>旅行</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo常用博客更新代码</title>
     <url>/2020/05/21/hello-world/</url>
     <content><![CDATA[<link rel="stylesheet" href="/css/owl.css"><link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div align="middle">
@@ -72,22 +88,6 @@
       </tags>
   </entry>
   <entry>
-    <title>青春纪行——大三期末与端学弟的日本自由行</title>
-    <url>/2020/05/31/adolescence/</url>
-    <content><![CDATA[<link rel="stylesheet" href="/css/owl.css"><link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div align="middle">
-    <img src="07.png" width="50%" height="50%" title="Little Busters!" alt=""/>
-    <audio src="Rita - Little Busters!.mp3" style="max-height :100%; max-width: 100%; display: block; margin-left: auto; margin-right: auto;" controls="controls" autoplay="autoplay" loop="loop" preload="meta">
-    </audio>
-</div>]]></content>
-      <categories>
-        <category>Travel Notes</category>
-      </categories>
-      <tags>
-        <tag>青春</tag>
-        <tag>旅行</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Little Busters——青春与梦想远航的第一站</title>
     <url>/2020/05/31/lb1/</url>
     <content><![CDATA[<link rel="stylesheet" href="/css/owl.css"><link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div align="middle">
@@ -144,9 +144,9 @@
         <category>Galgame</category>
       </categories>
       <tags>
+        <tag>青春</tag>
         <tag>ACG</tag>
         <tag>Galgame</tag>
-        <tag>青春</tag>
         <tag>Key社</tag>
         <tag>友情</tag>
         <tag>Little Busters</tag>
@@ -165,14 +165,14 @@
 
 <h1 id="自制乐谱"><a href="#自制乐谱" class="headerlink" title="自制乐谱"></a>自制乐谱</h1><p>在网易云听音乐的时候，意外的被推送了以前听过但是有些忘记的一首歌，叫作Asphodeius。然后想起本人以前玩过的八月社的galgame——穢翼のユースティア的OP。当时大一，刚开始玩的时候，就被八月社该作宏大的设定和世界观所深深震撼，而Ceui演唱的这首曲子也很好听，所以就把谱子扒了下来。（声明：本人通常喜欢以Charles Queen以及Kingboghost这两个昵称为在网络上社交所用的化名。以下乐谱皆为本人亲手制作。）</p>
 <h1 id="乐谱MIDI试听"><a href="#乐谱MIDI试听" class="headerlink" title="乐谱MIDI试听"></a>乐谱MIDI试听</h1><div align="middle">
-    <audio src="Asphodelus -アスフォデルス-.mp3" style="max-height :100%; max-width: 100%; display: block; margin-left: auto; margin-right: auto;" controls="controls" loop="loop" preload="meta">
+    <audio src="Asphodelus.mp3" style="max-height :100%; max-width: 100%; display: block; margin-left: auto; margin-right: auto;" controls="controls" loop="loop" preload="meta">
     </audio>
 </div>
 
 <br>
 
 <h1 id="乐谱PDF"><a href="#乐谱PDF" class="headerlink" title="乐谱PDF"></a>乐谱PDF</h1><div align="middle">
-    <embed src="Asphodelus -アスフォデルス.pdf" type="application/pdf" width="100%" height="800px" internalinstanceid="81" />
+    <embed src="Asphodelus -アスフォデルス- - 完整乐谱.pdf" type="application/pdf" width="100%" height="800px" internalinstanceid="81" />
 </div>]]></content>
       <categories>
         <category>Music</category>
@@ -186,6 +186,46 @@
         <tag>Ceui</tag>
         <tag>穢翼のユースティア</tag>
         <tag>秽翼的尤斯蒂娅</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>与Galgame最初的邂逅————Little Busters, Key社与友情</title>
+    <url>/2020/05/22/test-my-site/</url>
+    <content><![CDATA[<link rel="stylesheet" href="/css/owl.css"><link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div align="middle">
+    <img src="Little Busters!.jpg" width="50%" height="50%" title="ともしび" alt=""/>
+    <audio src="麻枝准 - ともしび.mp3" style="max-height :100%; max-width: 100%; display: block; margin-left: auto; margin-right: auto;" controls="controls" autoplay="autoplay" loop="loop" preload="meta">
+    </audio>
+</div>
+
+<br>
+
+<h1 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h1><ul>
+<li>高三下学期那年，由于在卓越联盟的自主招生中侥幸被选中，我成为了同济大学2014级预录取的学生。那时，距离高考尚有一个多月的闲暇时光，自认为即使没有复习也不至于连高考一本线都过不了的我，不同于其他正在继续奋战的学生，早早地卸下了升学的重担，开始琢磨自己那高考前的闲暇时光该如何度过。借用东晋诗人陶渊明先生的话来说，那时的我就像“久在樊笼里，复得返自然”的鸟儿那般。只是，那时的我由于严苛的家教，没有自己的手机和电脑。暂时不用学习，却又不知道玩什么好的我，只好将目光瞄准了同学们平常津津乐道的ACG领域。曾经的我对于ACG领域一无所知，以至于闹出过不少笑话。一次，我和高中结构赛的同学一起在空教室里休息，他在休息期间用自己的手机放了一首歌，名叫残酷な天使のテ-ゼ。我也曾听过这首歌，是一首现代机战动画的主题曲。当时的我依稀记得电视中曾经报道过的形象，无意之中将其与高达混淆了。而非常有意思的是，作为情商为负值的我很渴望和他人打好关系，于是强行以此为搭话的主题，却落得了一个被人嘲讽连新世纪福音战士都不知道的下场。这件事对于我的触动很大，也成为了我进入大学以后开始恶补ACG方面的知识的缘由之一。</li>
+</ul>
+<h1 id="交集"><a href="#交集" class="headerlink" title="交集"></a>交集</h1><ul>
+<li>之前经历的那件事只是导致我开始和ACG这一领域不断产生交集的导火索，而接下来的一次意外经历才是我会去尝试扣开Key社动画与游戏大门的真正原因。就在那次混淆事件不久之后，在一次去食堂打饭的路上，正在队伍中等待的我忽然瞥见前排的一名女生正在用手机观看动画，那个动画的画风远远优于我孩提时所见过的各类国产动画的画风。暖色的背景，绚丽的CG，精致的人物，这些特点都吸引着我去发问，去探求。因此，出于好奇，我向她发问了。然后，我第一次知道了Clannad，第一次知道了Key社，也第一次知道了制作这部由游戏改编而来的动画的动画公司的名字——京阿尼。于是，正愁着如何探索ACG这片广淼的海域的我有了第一个落锚点。而Key社，Clannad和京阿尼也成为了我最初进入ACG领域时最常搜索的三个词。</li>
+</ul>
+<h1 id="邂逅"><a href="#邂逅" class="headerlink" title="邂逅"></a>邂逅</h1><ul>
+<li>从那以后，我便一头扎进了ACG的海洋。那时的母亲认为我哪怕拿到了预录取，仍然有可能在高考中意外失足，最后名落孙山，连一本线都到不了，所以她依旧没有放松对我的约束，仍然禁止我去追求学习以外的事物。不过，由于母亲是一名教师，在高考前的一段时间，高中的学校开始陆续给高三的同学放假，让他们不要过度紧张，而是放松心情、劳逸结合、充满自信地走上考场。作为在自主招生中脱颖而出地我自然也在放假的学生之列。于是，我利用了母亲不在家的时间段开始探索起了ACG的领域。非常凑巧的是，当时的Bilibili是一个盗版横行的弹幕网站，还远没有发展到如今这般大公司的规模。那个时候，我通过搜索key社的关键词首次看到了Little Busters的动画。Little Busters的第一季动画大多都是嬉闹而又欢乐的日常，没有什么过于催泪的地方，而被它的故事和画风所吸引的我借助着百度百科的科普，了解到了Little Busters其实是由Key社的Galgame游戏Little Busters EX所改编而来的动画。既然改编的动画都这么棒，那作为原作的游戏一定会更加引人入胜吧。抱着这种想法的我，找到了当时由澄空学园汉化组所汉化的Little Busters EX的游戏，开始了我人生中的第一次Galgame之旅，一次让我刻骨铭心的旅程。<div align="middle">
+  <img src="Little Busters Members.jpg" width="100%" height="100%" alt=""/>
+</div>
+
+</li>
+</ul>
+<h1 id="青春与探寻"><a href="#青春与探寻" class="headerlink" title="青春与探寻"></a>青春与探寻</h1><ul>
+<li>也不知道是为什么，当Little Busters EX的开场OP开始的那一刹那，伴随着由Rita演唱的主题曲Little Busters!，我便立即感受到了一种从未感受到的激昂活力，这才是年轻高中生真正应该拥有的青春，我的青春也从这一刻开始，真正意义上地扬帆起航，载着我的憧憬与幻想，在二次元中开始了一段没有终点地旅途。作为青春的第一站，Little Busters!承载了我太多美好的回忆。接下来，我会根据Little Busters EX剧情的进展来进一步地介绍其中让我印象深刻的人物与故事。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Galgame</category>
+      </categories>
+      <tags>
+        <tag>青春</tag>
+        <tag>ACG</tag>
+        <tag>Galgame</tag>
+        <tag>Key社</tag>
+        <tag>友情</tag>
+        <tag>Little Busters</tag>
       </tags>
   </entry>
   <entry>
@@ -223,46 +263,6 @@
         <tag>spider</tag>
         <tag>Python</tag>
         <tag>web crawler</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>与Galgame最初的邂逅————Little Busters, Key社与友情</title>
-    <url>/2020/05/22/test-my-site/</url>
-    <content><![CDATA[<link rel="stylesheet" href="/css/owl.css"><link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div align="middle">
-    <img src="Little Busters!.jpg" width="50%" height="50%" title="ともしび" alt=""/>
-    <audio src="麻枝准 - ともしび.mp3" style="max-height :100%; max-width: 100%; display: block; margin-left: auto; margin-right: auto;" controls="controls" autoplay="autoplay" loop="loop" preload="meta">
-    </audio>
-</div>
-
-<br>
-
-<h1 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h1><ul>
-<li>高三下学期那年，由于在卓越联盟的自主招生中侥幸被选中，我成为了同济大学2014级预录取的学生。那时，距离高考尚有一个多月的闲暇时光，自认为即使没有复习也不至于连高考一本线都过不了的我，不同于其他正在继续奋战的学生，早早地卸下了升学的重担，开始琢磨自己那高考前的闲暇时光该如何度过。借用东晋诗人陶渊明先生的话来说，那时的我就像“久在樊笼里，复得返自然”的鸟儿那般。只是，那时的我由于严苛的家教，没有自己的手机和电脑。暂时不用学习，却又不知道玩什么好的我，只好将目光瞄准了同学们平常津津乐道的ACG领域。曾经的我对于ACG领域一无所知，以至于闹出过不少笑话。一次，我和高中结构赛的同学一起在空教室里休息，他在休息期间用自己的手机放了一首歌，名叫残酷な天使のテ-ゼ。我也曾听过这首歌，是一首现代机战动画的主题曲。当时的我依稀记得电视中曾经报道过的形象，无意之中将其与高达混淆了。而非常有意思的是，作为情商为负值的我很渴望和他人打好关系，于是强行以此为搭话的主题，却落得了一个被人嘲讽连新世纪福音战士都不知道的下场。这件事对于我的触动很大，也成为了我进入大学以后开始恶补ACG方面的知识的缘由之一。</li>
-</ul>
-<h1 id="交集"><a href="#交集" class="headerlink" title="交集"></a>交集</h1><ul>
-<li>之前经历的那件事只是导致我开始和ACG这一领域不断产生交集的导火索，而接下来的一次意外经历才是我会去尝试扣开Key社动画与游戏大门的真正原因。就在那次混淆事件不久之后，在一次去食堂打饭的路上，正在队伍中等待的我忽然瞥见前排的一名女生正在用手机观看动画，那个动画的画风远远优于我孩提时所见过的各类国产动画的画风。暖色的背景，绚丽的CG，精致的人物，这些特点都吸引着我去发问，去探求。因此，出于好奇，我向她发问了。然后，我第一次知道了Clannad，第一次知道了Key社，也第一次知道了制作这部由游戏改编而来的动画的动画公司的名字——京阿尼。于是，正愁着如何探索ACG这片广淼的海域的我有了第一个落锚点。而Key社，Clannad和京阿尼也成为了我最初进入ACG领域时最常搜索的三个词。</li>
-</ul>
-<h1 id="邂逅"><a href="#邂逅" class="headerlink" title="邂逅"></a>邂逅</h1><ul>
-<li>从那以后，我便一头扎进了ACG的海洋。那时的母亲认为我哪怕拿到了预录取，仍然有可能在高考中意外失足，最后名落孙山，连一本线都到不了，所以她依旧没有放松对我的约束，仍然禁止我去追求学习以外的事物。不过，由于母亲是一名教师，在高考前的一段时间，高中的学校开始陆续给高三的同学放假，让他们不要过度紧张，而是放松心情、劳逸结合、充满自信地走上考场。作为在自主招生中脱颖而出地我自然也在放假的学生之列。于是，我利用了母亲不在家的时间段开始探索起了ACG的领域。非常凑巧的是，当时的Bilibili是一个盗版横行的弹幕网站，还远没有发展到如今这般大公司的规模。那个时候，我通过搜索key社的关键词首次看到了Little Busters的动画。Little Busters的第一季动画大多都是嬉闹而又欢乐的日常，没有什么过于催泪的地方，而被它的故事和画风所吸引的我借助着百度百科的科普，了解到了Little Busters其实是由Key社的Galgame游戏Little Busters EX所改编而来的动画。既然改编的动画都这么棒，那作为原作的游戏一定会更加引人入胜吧。抱着这种想法的我，找到了当时由澄空学园汉化组所汉化的Little Busters EX的游戏，开始了我人生中的第一次Galgame之旅，一次让我刻骨铭心的旅程。<div align="middle">
-  <img src="Little Busters Members.jpg" width="100%" height="100%" alt=""/>
-</div>
-
-</li>
-</ul>
-<h1 id="青春与探寻"><a href="#青春与探寻" class="headerlink" title="青春与探寻"></a>青春与探寻</h1><ul>
-<li>也不知道是为什么，当Little Busters EX的开场OP开始的那一刹那，伴随着由Rita演唱的主题曲Little Busters!，我便立即感受到了一种从未感受到的激昂活力，这才是年轻高中生真正应该拥有的青春，我的青春也从这一刻开始，真正意义上地扬帆起航，载着我的憧憬与幻想，在二次元中开始了一段没有终点地旅途。作为青春的第一站，Little Busters!承载了我太多美好的回忆。接下来，我会根据Little Busters EX剧情的进展来进一步地介绍其中让我印象深刻的人物与故事。</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Galgame</category>
-      </categories>
-      <tags>
-        <tag>ACG</tag>
-        <tag>Galgame</tag>
-        <tag>青春</tag>
-        <tag>Key社</tag>
-        <tag>友情</tag>
-        <tag>Little Busters</tag>
       </tags>
   </entry>
 </search>
