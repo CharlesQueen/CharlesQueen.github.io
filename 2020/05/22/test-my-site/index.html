@@ -17,7 +17,7 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"charlesqueen.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":true,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+    var CONFIG = {"hostname":"charlesqueen.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":{"disqus":{"text":"Load Disqus","order":-1},"gitalk":{"order":-2}}},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
   <meta name="description" content="起因 高三下学期那年，由于在卓越联盟的自主招生中侥幸被选中，我成为了同济大学2014级预录取的学生。那时，距离高考尚有一个多月的闲暇时光，自认为即使没有复习也不至于连高考一本线都过不了的我，不同于其他正在继续奋战的学生，早早地卸下了升学的重担，开始琢磨自己那高考前的闲暇时光该如何度过。借用东晋诗人陶渊明先生的话来说，那时的我就像“久在樊笼里，复得返自然”的鸟">
@@ -33,10 +33,10 @@
 <meta property="article:modified_time" content="2021-08-11T08:38:37.623Z">
 <meta property="article:author" content="Charles Queen">
 <meta property="article:tag" content="ACG">
-<meta property="article:tag" content="Key社">
 <meta property="article:tag" content="Galgame">
-<meta property="article:tag" content="友情">
 <meta property="article:tag" content="青春">
+<meta property="article:tag" content="Key社">
+<meta property="article:tag" content="友情">
 <meta property="article:tag" content="Little Busters">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://charlesqueen.github.io/resources/Little%20Busters!.jpg">
@@ -250,6 +250,13 @@
             </span>
 
           
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
 
         </div>
       </header>
@@ -311,10 +318,10 @@
       <footer class="post-footer">
           <div class="post-tags">
               <a href="/tags/ACG/" rel="tag"># ACG</a>
-              <a href="/tags/Key%E7%A4%BE/" rel="tag"># Key社</a>
               <a href="/tags/Galgame/" rel="tag"># Galgame</a>
-              <a href="/tags/%E5%8F%8B%E6%83%85/" rel="tag"># 友情</a>
               <a href="/tags/%E9%9D%92%E6%98%A5/" rel="tag"># 青春</a>
+              <a href="/tags/Key%E7%A4%BE/" rel="tag"># Key社</a>
+              <a href="/tags/%E5%8F%8B%E6%83%85/" rel="tag"># 友情</a>
               <a href="/tags/Little-Busters/" rel="tag"># Little Busters</a>
           </div>
 
@@ -461,6 +468,26 @@
   </div>
 
         
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
 
 
 
@@ -546,7 +573,7 @@ NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
       clientSecret: 'b6cfb8880a23c1b6aec0668f1f098e5f54f01461',
       repo        : 'CharlesQueen.github.io',
       owner       : 'CharlesQueen',
-      admin       : ['['CharlesQueen']'],
+      admin       : ['CharlesQueen'],
       id          : 'e22d4804cf46236455052ee41ea46a77',
         language: 'zh-CN',
       distractionFreeMode: true
