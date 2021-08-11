@@ -27,17 +27,17 @@
 <meta property="og:site_name" content="Charles的ACG博客">
 <meta property="og:description" content="动态界面爬虫示例这里仅针对编程技巧差如狗的同学们（比如本博主）一些简单粗暴的爬虫技巧。 关键点搜寻牢记两个东西，一个是Request URL，另一个是Request Header(准确的说是Request Header中的User-Agent)。我们寻找它的方式很简单，Chrome浏览器鼠标右键，打开检查。然后按照Network-&gt;XHR的顺序点击，寻">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://charlesqueen.github.io/2020/05/20/spider-example/Kudryavka.png">
-<meta property="og:image" content="https://charlesqueen.github.io/2020/05/20/spider-example/huahuo.jpg">
+<meta property="og:image" content="https://charlesqueen.github.io/resources/Kudryavka.png">
+<meta property="og:image" content="https://charlesqueen.github.io/resources/huahuo.jpg">
 <meta property="article:published_time" content="2020-05-20T15:12:46.000Z">
-<meta property="article:modified_time" content="2020-05-22T11:22:22.757Z">
+<meta property="article:modified_time" content="2021-08-11T08:38:06.339Z">
 <meta property="article:author" content="Charles Queen">
 <meta property="article:tag" content="script">
 <meta property="article:tag" content="spider">
 <meta property="article:tag" content="Python">
 <meta property="article:tag" content="web crawler">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://charlesqueen.github.io/2020/05/20/spider-example/Kudryavka.png">
+<meta name="twitter:image" content="https://charlesqueen.github.io/resources/Kudryavka.png">
 
 <link rel="canonical" href="https://charlesqueen.github.io/2020/05/20/spider-example/">
 
@@ -245,7 +245,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-05-22 19:22:22" itemprop="dateModified" datetime="2020-05-22T19:22:22+08:00">2020-05-22</time>
+                <time title="修改时间：2021-08-11 16:38:06" itemprop="dateModified" datetime="2021-08-11T16:38:06+08:00">2021-08-11</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -269,8 +269,8 @@
 
       
         <div align="middle">
-    <img src="Kudryavka.png" width="50%" height="50%" title="Sweet & Sweet CHERRY" alt=""/>
-    <audio src="堀江由衣 - Sweet & Sweet CHERRY.mp3" style="max-height :100%; max-width: 100%; display: block; margin-left: auto; margin-right: auto;" controls="controls" autoplay="autoplay" loop="loop" preload="meta">
+    <img src="/resources/Kudryavka.png" width="50%" height="50%" title="Sweet & Sweet CHERRY" alt=""/>
+    <audio src="/resources/堀江由衣 - Sweet & Sweet CHERRY.mp3" style="max-height :100%; max-width: 100%; display: block; margin-left: auto; margin-right: auto;" controls="controls" autoplay="autoplay" loop="loop" preload="meta">
     </audio>
 </div>
 
@@ -278,7 +278,7 @@
 
 <h1 id="动态界面爬虫示例"><a href="#动态界面爬虫示例" class="headerlink" title="动态界面爬虫示例"></a>动态界面爬虫示例</h1><p>这里仅针对编程技巧差如狗的同学们（比如本博主）一些简单粗暴的爬虫技巧。</p>
 <h2 id="关键点搜寻"><a href="#关键点搜寻" class="headerlink" title="关键点搜寻"></a>关键点搜寻</h2><p>牢记两个东西，一个是Request URL，另一个是Request Header(准确的说是Request Header中的User-Agent)。我们寻找它的方式很简单，Chrome浏览器鼠标右键，打开检查。然后按照Network-&gt;XHR的顺序点击，寻找动态网页有没有什么通过发送请求来获取的链接文件，比如xxxx.php。如果你打开发现没有文件，请刷新后再看过。于是你看到下面这张图。</p>
-<p><img src="huahuo.jpg"></p>
+<p><img src="/resources/huahuo.jpg"></p>
 <p>于是你瞬间意识到事情不简单，然后把它整段地扒拉了下来：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br></pre></td><td class="code"><pre><span class="line">General:</span><br><span class="line">Request URL: https://www.say-huahuo.com/qa.php</span><br><span class="line">Request Method: GET</span><br><span class="line">Status Code: 200 </span><br><span class="line">Remote Address: 104.24.98.123:443</span><br><span class="line">Referrer Policy: no-referrer-when-downgrade</span><br><span class="line"></span><br><span class="line">Response Headers:</span><br><span class="line">alt-svc: h3-27=<span class="string">&quot;:443&quot;</span>; ma=86400, h3-25=<span class="string">&quot;:443&quot;</span>; ma=86400, h3-24=<span class="string">&quot;:443&quot;</span>; ma=86400, h3-23=<span class="string">&quot;:443&quot;</span>; ma=86400</span><br><span class="line">cache-control: no-store, no-cache, must-revalidate</span><br><span class="line">cf-cache-status: DYNAMIC</span><br><span class="line">cf-ray: 59602ebbbd56aa4e-SIN</span><br><span class="line">cf-request-id: 02cffb89520000aa4ec1b86200000001</span><br><span class="line">content-encoding: br</span><br><span class="line">content-type: text/html; charset=UTF-8</span><br><span class="line">date: Tue, 19 May 2020 19:21:43 GMT</span><br><span class="line">expect-ct: max-age=604800, report-uri=<span class="string">&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;</span></span><br><span class="line">expires: Thu, 19 Nov 1981 08:52:00 GMT</span><br><span class="line">pragma: no-cache</span><br><span class="line">server: cloudflare</span><br><span class="line">status: 200</span><br><span class="line">strict-transport-security: max-age=15552000; includeSubDomains</span><br><span class="line">x-powered-by: PHP/7.3.17</span><br><span class="line"></span><br><span class="line">Resquest Headers:</span><br><span class="line">:authority: www.say-huahuo.com</span><br><span class="line">:method: GET</span><br><span class="line">:path: /qa.php</span><br><span class="line">:scheme: https</span><br><span class="line">accept: application/json, text/plain, */*</span><br><span class="line">accept-encoding: gzip, deflate, br</span><br><span class="line">accept-language: zh,en;q=0.9,en-US;q=0.8,zh-TW;q=0.7</span><br><span class="line">cookie: __cfduid=df20cba4727396e1ed49ee026cabfda4d1589903621; FKX9_aeeb_saltkey=AZCORcaa; FKX9_aeeb_lastvisit=1589900021; FKX9_aeeb_sid=A10BEi; FKX9_aeeb_visitedfid=55; FKX9_aeeb_viewid=tid_38897; FKX9_aeeb_st_p=0%7C1589903803%7C0e03c5e65115dd1fde5dc1e8067bfa6a; FKX9_aeeb_secqaa=11333.adc5aad3849465fb52; FKX9_aeeb_lastact=1589903820%09misc.php%09seccode; FKX9_aeeb_seccode=11334.5d33298c3891337235; PHPSESSID=d6srkdmo0h4avtdfgrv91fios3</span><br><span class="line">referer: https://www.say-huahuo.com/answer/</span><br><span class="line">sec-fetch-dest: empty</span><br><span class="line">sec-fetch-mode: cors</span><br><span class="line">sec-fetch-site: same-origin</span><br><span class="line">user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36</span><br><span class="line">x-requested-with: XMLHttpRequest</span><br></pre></td></tr></table></figure>
 
