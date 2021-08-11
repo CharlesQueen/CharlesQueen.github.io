@@ -102,6 +102,20 @@
 
   
   <url>
+    <loc>https://charlesqueen.github.io/tags/%E9%9D%92%E6%98%A5/</loc>
+    <lastmod>2021-08-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://charlesqueen.github.io/tags/%E6%97%85%E8%A1%8C/</loc>
+    <lastmod>2021-08-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://charlesqueen.github.io/tags/Java/</loc>
     <lastmod>2021-08-11</lastmod>
     <changefreq>daily</changefreq>
@@ -116,6 +130,20 @@
   </url>
   
   <url>
+    <loc>https://charlesqueen.github.io/tags/Blog/</loc>
+    <lastmod>2021-08-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://charlesqueen.github.io/tags/Hexo/</loc>
+    <lastmod>2021-08-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://charlesqueen.github.io/tags/ACG/</loc>
     <lastmod>2021-08-11</lastmod>
     <changefreq>daily</changefreq>
@@ -123,7 +151,7 @@
   </url>
   
   <url>
-    <loc>https://charlesqueen.github.io/tags/Innocent-Grey/</loc>
+    <loc>https://charlesqueen.github.io/tags/Key%E7%A4%BE/</loc>
     <lastmod>2021-08-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -131,6 +159,27 @@
   
   <url>
     <loc>https://charlesqueen.github.io/tags/Galgame/</loc>
+    <lastmod>2021-08-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://charlesqueen.github.io/tags/%E5%8F%8B%E6%83%85/</loc>
+    <lastmod>2021-08-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://charlesqueen.github.io/tags/Little-Busters/</loc>
+    <lastmod>2021-08-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://charlesqueen.github.io/tags/Innocent-Grey/</loc>
     <lastmod>2021-08-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -172,76 +221,6 @@
   </url>
   
   <url>
-    <loc>https://charlesqueen.github.io/tags/%E9%9D%92%E6%98%A5/</loc>
-    <lastmod>2021-08-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://charlesqueen.github.io/tags/%E6%97%85%E8%A1%8C/</loc>
-    <lastmod>2021-08-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://charlesqueen.github.io/tags/Key%E7%A4%BE/</loc>
-    <lastmod>2021-08-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://charlesqueen.github.io/tags/%E5%8F%8B%E6%83%85/</loc>
-    <lastmod>2021-08-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://charlesqueen.github.io/tags/Little-Busters/</loc>
-    <lastmod>2021-08-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://charlesqueen.github.io/tags/Blog/</loc>
-    <lastmod>2021-08-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://charlesqueen.github.io/tags/Hexo/</loc>
-    <lastmod>2021-08-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://charlesqueen.github.io/tags/spider/</loc>
-    <lastmod>2021-08-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://charlesqueen.github.io/tags/Python/</loc>
-    <lastmod>2021-08-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://charlesqueen.github.io/tags/web-crawler/</loc>
-    <lastmod>2021-08-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://charlesqueen.github.io/tags/August/</loc>
     <lastmod>2021-08-11</lastmod>
     <changefreq>daily</changefreq>
@@ -269,7 +248,35 @@
     <priority>0.6</priority>
   </url>
   
+  <url>
+    <loc>https://charlesqueen.github.io/tags/spider/</loc>
+    <lastmod>2021-08-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://charlesqueen.github.io/tags/Python/</loc>
+    <lastmod>2021-08-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://charlesqueen.github.io/tags/web-crawler/</loc>
+    <lastmod>2021-08-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
 
+  
+  <url>
+    <loc>https://charlesqueen.github.io/categories/Travel-Notes/</loc>
+    <lastmod>2021-08-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
   
   <url>
     <loc>https://charlesqueen.github.io/categories/Java/</loc>
@@ -279,14 +286,7 @@
   </url>
   
   <url>
-    <loc>https://charlesqueen.github.io/categories/Music/</loc>
-    <lastmod>2021-08-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://charlesqueen.github.io/categories/Travel-Notes/</loc>
+    <loc>https://charlesqueen.github.io/categories/Hexo/</loc>
     <lastmod>2021-08-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -300,7 +300,7 @@
   </url>
   
   <url>
-    <loc>https://charlesqueen.github.io/categories/Hexo/</loc>
+    <loc>https://charlesqueen.github.io/categories/Music/</loc>
     <lastmod>2021-08-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
