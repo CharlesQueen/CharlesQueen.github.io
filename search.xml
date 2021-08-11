@@ -20,9 +20,9 @@
       
         <tags>
             
-            <tag> Java </tag>
-            
             <tag> script </tag>
+            
+            <tag> Java </tag>
             
         </tags>
       
@@ -88,9 +88,9 @@
             
             <tag> ACG </tag>
             
-            <tag> Galgame </tag>
-            
             <tag> Innocent Grey </tag>
+            
+            <tag> Galgame </tag>
             
             <tag> MANYO </tag>
             
@@ -152,15 +152,15 @@
       
         <tags>
             
-            <tag> ACG </tag>
+            <tag> 青春 </tag>
             
-            <tag> Key社 </tag>
+            <tag> ACG </tag>
             
             <tag> Galgame </tag>
             
-            <tag> 友情 </tag>
+            <tag> Key社 </tag>
             
-            <tag> 青春 </tag>
+            <tag> 友情 </tag>
             
             <tag> Little Busters </tag>
             
@@ -187,15 +187,15 @@
       
         <tags>
             
-            <tag> ACG </tag>
+            <tag> 青春 </tag>
             
-            <tag> Key社 </tag>
+            <tag> ACG </tag>
             
             <tag> Galgame </tag>
             
-            <tag> 友情 </tag>
+            <tag> Key社 </tag>
             
-            <tag> 青春 </tag>
+            <tag> 友情 </tag>
             
             <tag> Little Busters </tag>
             
@@ -210,7 +210,7 @@
       <link href="/2020/05/21/hello-world/"/>
       <url>/2020/05/21/hello-world/</url>
       
-        <content type="html"><![CDATA[<div align="middle">    <img src="/resources/金曜日のおはよう.jpg" width="50%" height="50%" title="金曜日のおはよう -Another Story-" alt=""/>    <audio src="/resources/雨宮天 - 金曜日のおはよう -Another Story-.mp3" style="max-height :100%; max-width: 100%; display: block; margin-left: auto; margin-right: auto;" controls="controls" autoplay="autoplay" loop="loop" preload="meta">    </audio></div><br><h2 id="Hexo常用代码备注"><a href="#Hexo常用代码备注" class="headerlink" title="Hexo常用代码备注"></a>Hexo常用代码备注</h2><h3 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo-cli </span><br></pre></td></tr></table></figure><h3 id="下载Next最新主题框架"><a href="#下载Next最新主题框架" class="headerlink" title="下载Next最新主题框架"></a>下载Next最新主题框架</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> your-hexo-site</span><br><span class="line">$ git <span class="built_in">clone</span> https://github.com/iissnan/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure><h3 id="初始化博客"><a href="#初始化博客" class="headerlink" title="初始化博客"></a>初始化博客</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init blog </span><br></pre></td></tr></table></figure><h3 id="撰写新博客文章"><a href="#撰写新博客文章" class="headerlink" title="撰写新博客文章"></a>撰写新博客文章</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;The name of your new post&quot;</span></span><br></pre></td></tr></table></figure><h3 id="post-md文件内常用指令"><a href="#post-md文件内常用指令" class="headerlink" title="post.md文件内常用指令"></a>post.md文件内常用指令</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">&lt;!--这玩意儿供你插入图片，歌名和与文章相应的循环播放的歌曲用的。--&gt;</span><br><span class="line">&lt;!--在搞这个之前记得把hexo的config文件中的post_asset_folder的布尔值改为<span class="literal">true</span>。--&gt;</span><br><span class="line">&lt;!--这样以后，<span class="built_in">source</span>/_post/路径下会在你新建post的时候生成一个供你存放音源图源的文件夹。--&gt;</span><br><span class="line"></span><br><span class="line">&lt;div align=<span class="string">&quot;middle&quot;</span>&gt;</span><br><span class="line">&lt;img src=<span class="string">&quot;xxxx唱片图片.jpg&quot;</span> width=<span class="string">&quot;50%&quot;</span> height=<span class="string">&quot;50%&quot;</span> title=<span class="string">&quot;xxxx歌名&quot;</span> alt=<span class="string">&quot;&quot;</span>/&gt;</span><br><span class="line">&lt;audio src=<span class="string">&quot;xxxx.mp3&quot;</span> style=<span class="string">&quot;max-height :100%; max-width: 100%; display: block; margin-left: auto; margin-right: auto;&quot;</span> controls=<span class="string">&quot;controls&quot;</span> autoplay=<span class="string">&quot;autoplay&quot;</span> loop=<span class="string">&quot;loop&quot;</span> preload=<span class="string">&quot;meta&quot;</span>&gt;</span><br><span class="line">&lt;/audio&gt;</span><br><span class="line">&lt;/div&gt;</span><br><span class="line"></span><br><span class="line">&lt;！--简单的空行指令--&gt;</span><br><span class="line"></span><br><span class="line">&lt;br&gt;</span><br></pre></td></tr></table></figure><h3 id="生成静态文件"><a href="#生成静态文件" class="headerlink" title="生成静态文件"></a>生成静态文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ hexo g</span><br></pre></td></tr></table></figure><h3 id="将静态网页文件部署在远程网页中"><a href="#将静态网页文件部署在远程网页中" class="headerlink" title="将静态网页文件部署在远程网页中"></a>将静态网页文件部署在远程网页中</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure><h3 id="临时展示（localhost-4000）"><a href="#临时展示（localhost-4000）" class="headerlink" title="临时展示（localhost:4000）"></a>临时展示（localhost:4000）</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo s</span><br></pre></td></tr></table></figure><h3 id="关于主页不完全显示文章的方法"><a href="#关于主页不完全显示文章的方法" class="headerlink" title="关于主页不完全显示文章的方法"></a>关于主页不完全显示文章的方法</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">在index.md里加上 description:</span><br><span class="line"></span><br><span class="line">例子：</span><br><span class="line">---</span><br><span class="line">title: Hexo常用博客更新代码</span><br><span class="line">date: 2020-05-21 23:12:46</span><br><span class="line">description: 随缘更新的Hexo博客的一些基本构建操作。</span><br><span class="line">---</span><br></pre></td></tr></table></figure><h3 id="关于Next主题7-80版本中文标题的链接无法跳转的问题"><a href="#关于Next主题7-80版本中文标题的链接无法跳转的问题" class="headerlink" title="关于Next主题7.80版本中文标题的链接无法跳转的问题"></a>关于Next主题7.80版本中文标题的链接无法跳转的问题</h3><p>先上图：</p><p><img src="/resources/link_error.png"></p><p>要改的就是图片里框出来的两句话：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">将</span><br><span class="line">var target = document.getElementById(event.currentTarget.getAttribute(<span class="string">&#x27;href&#x27;</span>).replace(<span class="string">&#x27;#&#x27;</span>, <span class="string">&#x27;&#x27;</span>));</span><br><span class="line">改为：</span><br><span class="line">var target = document.getElementById(decodeURI(event.currentTarget.getAttribute(<span class="string">&#x27;href&#x27;</span>).replace(<span class="string">&#x27;#&#x27;</span>, <span class="string">&#x27;&#x27;</span>)));</span><br><span class="line"></span><br><span class="line"><span class="built_in">return</span> 的部分如法炮制，问题主要出现在文字转码问题，要给加上 decodeURI()。</span><br><span class="line"></span><br><span class="line">参考网站为：https://github.com/theme-next/hexo-theme-next/issues/1543</span><br></pre></td></tr></table></figure>]]></content>
+        <content type="html"><![CDATA[<div align="middle">    <img src="/resources/金曜日のおはよう.jpg" width="50%" height="50%" title="金曜日のおはよう -Another Story-" alt=""/>    <audio src="/resources/雨宮天 - 金曜日のおはよう -Another Story-.mp3" style="max-height :100%; max-width: 100%; display: block; margin-left: auto; margin-right: auto;" controls="controls" autoplay="autoplay" loop="loop" preload="meta">    </audio></div><br><h2 id="Hexo常用代码备注"><a href="#Hexo常用代码备注" class="headerlink" title="Hexo常用代码备注"></a>Hexo常用代码备注</h2><h3 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo-cli </span><br></pre></td></tr></table></figure><h3 id="下载Next最新主题框架"><a href="#下载Next最新主题框架" class="headerlink" title="下载Next最新主题框架"></a>下载Next最新主题框架</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> your-hexo-site</span><br><span class="line">$ git <span class="built_in">clone</span> https://github.com/iissnan/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure><h3 id="初始化博客"><a href="#初始化博客" class="headerlink" title="初始化博客"></a>初始化博客</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init blog </span><br></pre></td></tr></table></figure><h3 id="撰写新博客文章"><a href="#撰写新博客文章" class="headerlink" title="撰写新博客文章"></a>撰写新博客文章</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;The name of your new post&quot;</span></span><br></pre></td></tr></table></figure><h3 id="post-md文件内常用指令"><a href="#post-md文件内常用指令" class="headerlink" title="post.md文件内常用指令"></a>post.md文件内常用指令</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">&lt;!--这玩意儿供你插入图片，歌名和与文章相应的循环播放的歌曲用的。--&gt;</span><br><span class="line">&lt;!--在搞这个之前记得把hexo的config文件中的post_asset_folder的布尔值改为<span class="literal">true</span>。--&gt;</span><br><span class="line">&lt;!--这样以后，<span class="built_in">source</span>/_post/路径下会在你新建post的时候生成一个供你存放音源图源的文件夹。--&gt;</span><br><span class="line"></span><br><span class="line">&lt;div align=<span class="string">&quot;middle&quot;</span>&gt;</span><br><span class="line">&lt;img src=<span class="string">&quot;xxxx唱片图片.jpg&quot;</span> width=<span class="string">&quot;50%&quot;</span> height=<span class="string">&quot;50%&quot;</span> title=<span class="string">&quot;xxxx歌名&quot;</span> alt=<span class="string">&quot;&quot;</span>/&gt;</span><br><span class="line">&lt;audio src=<span class="string">&quot;xxxx.mp3&quot;</span> style=<span class="string">&quot;max-height :100%; max-width: 100%; display: block; margin-left: auto; margin-right: auto;&quot;</span> controls=<span class="string">&quot;controls&quot;</span> autoplay=<span class="string">&quot;autoplay&quot;</span> loop=<span class="string">&quot;loop&quot;</span> preload=<span class="string">&quot;meta&quot;</span>&gt;</span><br><span class="line">&lt;/audio&gt;</span><br><span class="line">&lt;/div&gt;</span><br><span class="line"></span><br><span class="line">&lt;！--简单的空行指令--&gt;</span><br><span class="line"></span><br><span class="line">&lt;br&gt;</span><br></pre></td></tr></table></figure><h3 id="生成静态文件"><a href="#生成静态文件" class="headerlink" title="生成静态文件"></a>生成静态文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ hexo g</span><br></pre></td></tr></table></figure><h3 id="将静态网页文件部署在远程网页中"><a href="#将静态网页文件部署在远程网页中" class="headerlink" title="将静态网页文件部署在远程网页中"></a>将静态网页文件部署在远程网页中</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure><h3 id="临时展示（localhost-4000）"><a href="#临时展示（localhost-4000）" class="headerlink" title="临时展示（localhost:4000）"></a>临时展示（localhost:4000）</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo s</span><br></pre></td></tr></table></figure><h3 id="关于主页不完全显示文章的方法"><a href="#关于主页不完全显示文章的方法" class="headerlink" title="关于主页不完全显示文章的方法"></a>关于主页不完全显示文章的方法</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">在index.md里加上 description:</span><br><span class="line"></span><br><span class="line">例子：</span><br><span class="line">---</span><br><span class="line">title: Hexo常用博客更新代码</span><br><span class="line">date: 2020-05-21 23:12:46</span><br><span class="line">description: 随缘更新的Hexo博客的一些基本构建操作。</span><br><span class="line">---</span><br></pre></td></tr></table></figure><h3 id="关于Next主题7-80版本中文标题的链接无法跳转的问题"><a href="#关于Next主题7-80版本中文标题的链接无法跳转的问题" class="headerlink" title="关于Next主题7.80版本中文标题的链接无法跳转的问题"></a>关于Next主题7.80版本中文标题的链接无法跳转的问题</h3><p>先上图：</p><p><img src="/resources/link_error.png"></p><p>要改的就是图片里框出来的两句话：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">将 \blog\themes\next\<span class="built_in">source</span>\js\utils.js 文件目录下的</span><br><span class="line">var target = document.getElementById(event.currentTarget.getAttribute(<span class="string">&#x27;href&#x27;</span>).replace(<span class="string">&#x27;#&#x27;</span>, <span class="string">&#x27;&#x27;</span>));</span><br><span class="line">改为：</span><br><span class="line">var target = document.getElementById(decodeURI(event.currentTarget.getAttribute(<span class="string">&#x27;href&#x27;</span>).replace(<span class="string">&#x27;#&#x27;</span>, <span class="string">&#x27;&#x27;</span>)));</span><br><span class="line"></span><br><span class="line"><span class="built_in">return</span> 的部分如法炮制，问题主要出现在文字转码问题，要给加上 decodeURI()。</span><br><span class="line"></span><br><span class="line">参考网站为：https://github.com/theme-next/hexo-theme-next/issues/1543</span><br></pre></td></tr></table></figure>]]></content>
       
       
       <categories>
@@ -222,11 +222,11 @@
       
         <tags>
             
-            <tag> script </tag>
-            
             <tag> Blog </tag>
             
             <tag> Hexo </tag>
+            
+            <tag> script </tag>
             
         </tags>
       
