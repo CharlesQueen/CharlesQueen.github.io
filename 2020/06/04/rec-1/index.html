@@ -32,8 +32,8 @@
 <meta property="article:modified_time" content="2021-08-11T08:37:27.387Z">
 <meta property="article:author" content="Charles Queen">
 <meta property="article:tag" content="ACG">
-<meta property="article:tag" content="Galgame">
 <meta property="article:tag" content="Innocent Grey">
+<meta property="article:tag" content="Galgame">
 <meta property="article:tag" content="MANYO">
 <meta property="article:tag" content="音乐">
 <meta property="article:tag" content="乐谱">
@@ -306,8 +306,8 @@
       <footer class="post-footer">
           <div class="post-tags">
               <a href="/tags/ACG/" rel="tag"># ACG</a>
-              <a href="/tags/Galgame/" rel="tag"># Galgame</a>
               <a href="/tags/Innocent-Grey/" rel="tag"># Innocent Grey</a>
+              <a href="/tags/Galgame/" rel="tag"># Galgame</a>
               <a href="/tags/MANYO/" rel="tag"># MANYO</a>
               <a href="/tags/%E9%9F%B3%E4%B9%90/" rel="tag"># 音乐</a>
               <a href="/tags/%E4%B9%90%E8%B0%B1/" rel="tag"># 乐谱</a>
@@ -340,6 +340,7 @@
 
           </div>
           
+    <div class="comments" id="gitalk-container"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -531,6 +532,26 @@ document.querySelectorAll('.pdfobject-container').forEach(element => {
   
 
   
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
+
+<script>
+NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
+    var gitalk = new Gitalk({
+      clientID    : 'f51c5d9ee58a37403be4',
+      clientSecret: 'b6cfb8880a23c1b6aec0668f1f098e5f54f01461',
+      repo        : 'CharlesQueen.github.io',
+      owner       : '59506359',
+      admin       : ['['CharlesQueen']'],
+      id          : '9aba7c6846a24b4804061fe28643e716',
+        language: 'zh-CN',
+      distractionFreeMode: true
+    });
+    gitalk.render('gitalk-container');
+  }, window.Gitalk);
+});
+</script>
 
 </body>
 </html>
