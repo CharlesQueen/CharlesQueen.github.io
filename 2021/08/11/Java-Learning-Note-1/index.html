@@ -20,16 +20,16 @@
     var CONFIG = {"hostname":"charlesqueen.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"gitalk","storage":true,"lazyload":false,"nav":{"disqus":{"text":"Load Disqus","order":-1},"gitalk":{"order":-2}},"activeClass":"gitalk"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="Java的数据类型type   数据类型 解释 最大值 最小值 默认值    byte byte 数据类型是 8 位、有符号的，以二进制补码表示的整数。 127(2^7-1) -128(-2^7) 0   short short 数据类型是 16 位、有符号的，以二进制补码表示的整数。 32767(2^15-1) -32768(-2^15) 0   int">
+  <meta name="description" content="此笔记对应Duke大学Coursera课程——Java 程序设计：使用软件解题。编译环境使用的课程提供的BlueJ。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Java学习笔记1——基本的数学算符、变量、循环、函数和类">
 <meta property="og:url" content="https://charlesqueen.github.io/2021/08/11/Java-Learning-Note-1/index.html">
 <meta property="og:site_name" content="Charles的ACG博客">
-<meta property="og:description" content="Java的数据类型type   数据类型 解释 最大值 最小值 默认值    byte byte 数据类型是 8 位、有符号的，以二进制补码表示的整数。 127(2^7-1) -128(-2^7) 0   short short 数据类型是 16 位、有符号的，以二进制补码表示的整数。 32767(2^15-1) -32768(-2^15) 0   int">
+<meta property="og:description" content="此笔记对应Duke大学Coursera课程——Java 程序设计：使用软件解题。编译环境使用的课程提供的BlueJ。">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://charlesqueen.github.io/resources/magic_madoka.jpg">
 <meta property="article:published_time" content="2021-08-11T02:29:06.000Z">
-<meta property="article:modified_time" content="2021-08-11T08:34:09.392Z">
+<meta property="article:modified_time" content="2021-08-11T14:37:08.110Z">
 <meta property="article:author" content="Charles Queen">
 <meta property="article:tag" content="Java">
 <meta property="article:tag" content="script">
@@ -226,7 +226,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2021-08-11 10:29:06 / 修改时间：16:34:09" itemprop="dateCreated datePublished" datetime="2021-08-11T10:29:06+08:00">2021-08-11</time>
+              <time title="创建时间：2021-08-11 10:29:06 / 修改时间：22:37:08" itemprop="dateCreated datePublished" datetime="2021-08-11T10:29:06+08:00">2021-08-11</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -246,6 +246,7 @@
               <span class="post-meta-item-text">阅读次数：</span>
               <span id="busuanzi_value_page_pv"></span>
             </span>
+            <div class="post-description">此笔记对应Duke大学Coursera课程——Java 程序设计：使用软件解题。编译环境使用的课程提供的BlueJ。</div>
 
         </div>
       </header>
@@ -264,10 +265,10 @@
 
 <br>
 
-<h1 id="Java的数据类型type"><a href="#Java的数据类型type" class="headerlink" title="Java的数据类型type"></a>Java的数据类型type</h1><table>
+<h1 id="Java的类型type"><a href="#Java的类型type" class="headerlink" title="Java的类型type"></a>Java的类型type</h1><h2 id="基本类型（primitive-type）"><a href="#基本类型（primitive-type）" class="headerlink" title="基本类型（primitive type）"></a>基本类型（primitive type）</h2><table>
 <thead>
 <tr>
-<th>数据类型</th>
+<th>类型</th>
 <th>解释</th>
 <th>最大值</th>
 <th>最小值</th>
@@ -332,7 +333,7 @@
 </tr>
 <tr>
 <td>string</td>
-<td>字符串</td>
+<td>字符串（它属于object type）</td>
 <td></td>
 <td></td>
 <td>null</td>
@@ -341,6 +342,7 @@
 <p><b>整数和浮点数这两种数据可以根据需求来选取精度不同的类型。而在定义数据类型的时候应该注意整数和浮点数的写法。</p>
 <figure class="highlight java"><figcaption><span>不同数据类型变量生成示例</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">\\ 整数</span><br><span class="line"><span class="keyword">byte</span> a = <span class="number">5</span>;</span><br><span class="line"><span class="keyword">short</span> b = <span class="number">2000</span>;</span><br><span class="line"><span class="keyword">int</span> c = <span class="number">40000</span>;</span><br><span class="line"><span class="keyword">long</span> d = <span class="number">3000000000L</span>;</span><br><span class="line">\\ 浮点数</span><br><span class="line">\\ 单精度</span><br><span class="line"><span class="keyword">float</span> f1 = <span class="number">234.5f</span></span><br><span class="line">\\ 双精度</span><br><span class="line"><span class="keyword">double</span>   d1  = <span class="number">7D</span> ;</span><br><span class="line"><span class="keyword">double</span>   d2  = <span class="number">7.</span>; </span><br><span class="line"><span class="keyword">double</span>   d3  =  <span class="number">8.0</span>; </span><br><span class="line"><span class="keyword">double</span>   d4  =  <span class="number">8.D</span>; </span><br><span class="line"><span class="keyword">double</span>   d5  =  <span class="number">12.9867</span>; </span><br><span class="line">\\ 字符</span><br><span class="line"><span class="keyword">char</span> letter = <span class="string">&#x27;A&#x27;</span>;</span><br><span class="line">\\ 布尔值</span><br><span class="line"><span class="keyword">boolean</span> one = <span class="keyword">true</span>;</span><br><span class="line">\\ 字符串</span><br><span class="line">string str = <span class="string">&#x27;nmsl&#x27;</span></span><br></pre></td></tr></table></figure>
 
+<h2 id="对象类型（object-type）"><a href="#对象类型（object-type）" class="headerlink" title="对象类型（object type）"></a>对象类型（object type）</h2><p><b>任何你自己定义的类型都是object type。对象类型变量的值是一个指向对象的箭头。（The value of variables of object types is an arrow pointing at the object.）</p>
 <br>
 
 <h1 id="Java的基本类和函数"><a href="#Java的基本类和函数" class="headerlink" title="Java的基本类和函数"></a>Java的基本类和函数</h1><figure class="highlight java"><figcaption><span>Point类示例</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 生成点的类</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Point</span> </span>&#123;</span><br><span class="line">    <span class="comment">// 定义私有变量，仅允许在本类中被访问。</span></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">int</span> x;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">int</span> y;</span><br><span class="line">    <span class="comment">// 构造方法，用来构造新的point。</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">Point</span><span class="params">(<span class="keyword">int</span> startx, <span class="keyword">int</span> starty)</span> </span>&#123;</span><br><span class="line">        x = startx;</span><br><span class="line">        y = starty;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">// 可以被外部代码调用的方法（method），分别为坐标获取以及两点距离计算。</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">getX</span><span class="params">()</span> </span>&#123; <span class="keyword">return</span> x; &#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">getY</span><span class="params">()</span> </span>&#123; <span class="keyword">return</span> y; &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">double</span> <span class="title">distance</span><span class="params">(Point otherPt)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> dx = otherPt.getX();</span><br><span class="line">        <span class="keyword">int</span> dy = otherPt.getY();</span><br><span class="line">        <span class="keyword">return</span> Math.sqrt(dx*dx + dy*dy);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">// main函数示例，void表示此函数无return，static表示全局或者静态之意，被static修饰的变量和方法独立于该类的任何对象，可以直接通过类名访问，无需构造新的Point。</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(string[] args)</span> </span>&#123;</span><br><span class="line">        <span class="comment">// 构造Point的实例：new Point(a, b)</span></span><br><span class="line">        Point p1 = <span class="keyword">new</span> Point(<span class="number">3</span>, <span class="number">4</span>);</span><br><span class="line">        Point p2 = <span class="keyword">new</span> Point(<span class="number">6</span>, <span class="number">8</span>);</span><br><span class="line">        <span class="comment">// println是将输出的参数显示在命令窗口，并在结尾加上换行符，将输出光标定位在下一行的开始。</span></span><br><span class="line">        System.out.println(p1.distance(p2));</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
@@ -367,6 +369,9 @@
 <td>凡是被protected修饰的变量，都被称为保护变量。除了允许在本类的内部访问之外，还允许它的子类以及同一个包中的其他类访问。子类是指从该类派生出来的类。包是Java中用于管理类的一种松散的集合。（子类和包以后会细讲）</td>
 </tr>
 </tbody></table>
+<h1 id="For循环"><a href="#For循环" class="headerlink" title="For循环"></a>For循环</h1><figure class="highlight java"><figcaption><span>For循环示例</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">\\ 这里的:可以理解为in，也就是在源文件中的每一行都经历一次循环。</span><br><span class="line"><span class="keyword">for</span> (String line : f.lines()) &#123;</span><br><span class="line">    System.out.println(line);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
 
     </div>
 
@@ -466,7 +471,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Java%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8Btype"><span class="nav-number">1.</span> <span class="nav-text">Java的数据类型type</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Java%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%B1%BB%E5%92%8C%E5%87%BD%E6%95%B0"><span class="nav-number">2.</span> <span class="nav-text">Java的基本类和函数</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%88%90%E5%91%98%E5%8F%98%E9%87%8F%E7%9A%84%E8%AE%BF%E9%97%AE%E6%9D%83%E9%99%90"><span class="nav-number">3.</span> <span class="nav-text">成员变量的访问权限</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Java%E7%9A%84%E7%B1%BB%E5%9E%8Btype"><span class="nav-number">1.</span> <span class="nav-text">Java的类型type</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9F%BA%E6%9C%AC%E7%B1%BB%E5%9E%8B%EF%BC%88primitive-type%EF%BC%89"><span class="nav-number">1.1.</span> <span class="nav-text">基本类型（primitive type）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AF%B9%E8%B1%A1%E7%B1%BB%E5%9E%8B%EF%BC%88object-type%EF%BC%89"><span class="nav-number">1.2.</span> <span class="nav-text">对象类型（object type）</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Java%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%B1%BB%E5%92%8C%E5%87%BD%E6%95%B0"><span class="nav-number">2.</span> <span class="nav-text">Java的基本类和函数</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%88%90%E5%91%98%E5%8F%98%E9%87%8F%E7%9A%84%E8%AE%BF%E9%97%AE%E6%9D%83%E9%99%90"><span class="nav-number">3.</span> <span class="nav-text">成员变量的访问权限</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#For%E5%BE%AA%E7%8E%AF"><span class="nav-number">4.</span> <span class="nav-text">For循环</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
