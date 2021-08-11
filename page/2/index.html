@@ -22,13 +22,13 @@
 
   <meta property="og:type" content="website">
 <meta property="og:title" content="Charles的ACG博客">
-<meta property="og:url" content="https://charlesqueen.github.io/index.html">
+<meta property="og:url" content="https://charlesqueen.github.io/page/2/index.html">
 <meta property="og:site_name" content="Charles的ACG博客">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:author" content="Charles Queen">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="https://charlesqueen.github.io/">
+<link rel="canonical" href="https://charlesqueen.github.io/page/2/">
 
 
 <script id="page-configurations">
@@ -203,7 +203,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://charlesqueen.github.io/2021/08/11/Java-Learning-Note-1/">
+    <link itemprop="mainEntityOfPage" href="https://charlesqueen.github.io/2020/06/08/rec-2/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.png">
@@ -217,7 +217,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2021/08/11/Java-Learning-Note-1/" class="post-title-link" itemprop="url">Java学习笔记1——基本的数学算符、变量、循环、函数和类</a>
+            <a href="/2020/06/08/rec-2/" class="post-title-link" itemprop="url">音乐推荐2——【穢翼のユースティア OP】Asphodelus+自制乐谱</a>
         </h2>
 
         <div class="post-meta">
@@ -226,17 +226,23 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2021-08-11 10:29:06 / 修改时间：16:06:38" itemprop="dateCreated datePublished" datetime="2021-08-11T10:29:06+08:00">2021-08-11</time>
+              <time title="创建时间：2020-06-08 01:11:33" itemprop="dateCreated datePublished" datetime="2020-06-08T01:11:33+08:00">2020-06-08</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-06-14 00:49:29" itemprop="dateModified" datetime="2020-06-14T00:49:29+08:00">2020-06-14</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
               </span>
               <span class="post-meta-item-text">分类于</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Java/" itemprop="url" rel="index"><span itemprop="name">Java</span></a>
+                  <a href="/categories/Music/" itemprop="url" rel="index"><span itemprop="name">Music</span></a>
                 </span>
             </span>
 
@@ -252,117 +258,24 @@
 
       
           <div align="middle">
-    <img src="/2021/08/11/magic_madoka.jpg" width="50%" height="50%" title="ごまかし" alt=""/>
-    <audio src="/2021/08/11/TrySail - ごまかし.mp3" style="max-height :100%; max-width: 100%; display: block; margin-left: auto; margin-right: auto;" controls="controls" autoplay="autoplay" loop="loop" preload="meta">
+    <img src="秽翼的尤斯蒂娅.png" width="50%" height="50%" title="Asphodelus -アスフォデルス-" alt=""/>
+    <audio src="Ceui - Asphodelus -short ver.mp3" style="max-height :100%; max-width: 100%; display: block; margin-left: auto; margin-right: auto;" controls="controls" autoplay="autoplay" loop="loop" preload="meta">
     </audio>
 </div>
 
 <br>
 
-<h1 id="Java的数据类型type"><a href="#Java的数据类型type" class="headerlink" title="Java的数据类型type"></a>Java的数据类型type</h1><table>
-<thead>
-<tr>
-<th>数据类型</th>
-<th>解释</th>
-<th>最大值</th>
-<th>最小值</th>
-<th>默认值</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>byte</td>
-<td>byte 数据类型是 8 位、有符号的，以二进制补码表示的整数。</td>
-<td>127(2^7-1)</td>
-<td>-128(-2^7)</td>
-<td>0</td>
-</tr>
-<tr>
-<td>short</td>
-<td>short 数据类型是 16 位、有符号的，以二进制补码表示的整数。</td>
-<td>32767(2^15-1)</td>
-<td>-32768(-2^15)</td>
-<td>0</td>
-</tr>
-<tr>
-<td>int</td>
-<td>int 数据类型是 32 位、有符号的，以二进制补码表示的整数。</td>
-<td>2,147,483,647(2^31-1)</td>
-<td>-2,147,483,648(-2^31)</td>
-<td>0</td>
-</tr>
-<tr>
-<td>long</td>
-<td>long 数据类型是 64 位、有符号的，以二进制补码表示的整数。</td>
-<td>9,223,372,036,854,775,807(2^63-1)</td>
-<td>-9,223,372,036,854,775,808(-2^63)</td>
-<td>0L</td>
-</tr>
-<tr>
-<td>float</td>
-<td>float 数据类型是单精度、32位、符合IEEE 754标准的浮点数。</td>
-<td></td>
-<td></td>
-<td>0.0f</td>
-</tr>
-<tr>
-<td>double</td>
-<td>double 数据类型是双精度、64 位、符合 IEEE 754 标准的浮点数。</td>
-<td></td>
-<td></td>
-<td>0.0d</td>
-</tr>
-<tr>
-<td>boolean</td>
-<td>boolean数据类型表示一位（真假、对错）的信息。只有两个取值：true 和 false。这种类型只作为一种标志来记录 true/false 情况。</td>
-<td></td>
-<td></td>
-<td>false</td>
-</tr>
-<tr>
-<td>char</td>
-<td>char 类型是一个单一的 16 位 Unicode 字符char 数据类型可以储存任何字符。</td>
-<td>\uffff（即为 65535）</td>
-<td>\u0000（十进制等效值为 0）</td>
-<td>null</td>
-</tr>
-<tr>
-<td>string</td>
-<td>字符串</td>
-<td></td>
-<td></td>
-<td>null</td>
-</tr>
-</tbody></table>
-<p><b>整数和浮点数这两种数据可以根据需求来选取精度不同的类型。而在定义数据类型的时候应该注意整数和浮点数的写法。</p>
-<figure class="highlight java"><figcaption><span>不同数据类型变量生成示例</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">\\ 整数</span><br><span class="line"><span class="keyword">byte</span> a = <span class="number">5</span>;</span><br><span class="line"><span class="keyword">short</span> b = <span class="number">2000</span>;</span><br><span class="line"><span class="keyword">int</span> c = <span class="number">40000</span>;</span><br><span class="line"><span class="keyword">long</span> d = <span class="number">3000000000L</span>;</span><br><span class="line">\\ 浮点数</span><br><span class="line">\\ 单精度</span><br><span class="line"><span class="keyword">float</span> f1 = <span class="number">234.5f</span></span><br><span class="line">\\ 双精度</span><br><span class="line"><span class="keyword">double</span>   d1  = <span class="number">7D</span> ;</span><br><span class="line"><span class="keyword">double</span>   d2  = <span class="number">7.</span>; </span><br><span class="line"><span class="keyword">double</span>   d3  =  <span class="number">8.0</span>; </span><br><span class="line"><span class="keyword">double</span>   d4  =  <span class="number">8.D</span>; </span><br><span class="line"><span class="keyword">double</span>   d5  =  <span class="number">12.9867</span>; </span><br><span class="line">\\ 字符</span><br><span class="line"><span class="keyword">char</span> letter = <span class="string">&#x27;A&#x27;</span>;</span><br><span class="line">\\ 布尔值</span><br><span class="line"><span class="keyword">boolean</span> one = <span class="keyword">true</span>;</span><br><span class="line">\\ 字符串</span><br><span class="line">string str = <span class="string">&#x27;nmsl&#x27;</span></span><br></pre></td></tr></table></figure>
+<h1 id="自制乐谱"><a href="#自制乐谱" class="headerlink" title="自制乐谱"></a>自制乐谱</h1><p>在网易云听音乐的时候，意外的被推送了以前听过但是有些忘记的一首歌，叫作Asphodeius。然后想起本人以前玩过的八月社的galgame——穢翼のユースティア的OP。当时大一，刚开始玩的时候，就被八月社该作宏大的设定和世界观所深深震撼，而Ceui演唱的这首曲子也很好听，所以就把谱子扒了下来。（声明：本人通常喜欢以Charles Queen以及Kingboghost这两个昵称为在网络上社交所用的化名。以下乐谱皆为本人亲手制作。）</p>
+<h1 id="乐谱MIDI试听"><a href="#乐谱MIDI试听" class="headerlink" title="乐谱MIDI试听"></a>乐谱MIDI试听</h1><div align="middle">
+    <audio src="Asphodelus.mp3" style="max-height :100%; max-width: 100%; display: block; margin-left: auto; margin-right: auto;" controls="controls" loop="loop" preload="meta">
+    </audio>
+</div>
 
 <br>
 
-<h1 id="Java的基本类和函数"><a href="#Java的基本类和函数" class="headerlink" title="Java的基本类和函数"></a>Java的基本类和函数</h1><figure class="highlight java"><figcaption><span>Point类示例</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 生成点的类</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Point</span> </span>&#123;</span><br><span class="line">    <span class="comment">// 定义私有变量，仅允许在本类中被访问。</span></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">int</span> x;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">int</span> y;</span><br><span class="line">    <span class="comment">// 构造方法，用来构造新的point。</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">Point</span><span class="params">(<span class="keyword">int</span> startx, <span class="keyword">int</span> starty)</span> </span>&#123;</span><br><span class="line">        x = startx;</span><br><span class="line">        y = starty;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">// 可以被外部代码调用的方法（method），分别为坐标获取以及两点距离计算。</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">getX</span><span class="params">()</span> </span>&#123; <span class="keyword">return</span> x; &#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">getY</span><span class="params">()</span> </span>&#123; <span class="keyword">return</span> y; &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">double</span> <span class="title">distance</span><span class="params">(Point otherPt)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> dx = otherPt.getX();</span><br><span class="line">        <span class="keyword">int</span> dy = otherPt.getY();</span><br><span class="line">        <span class="keyword">return</span> Math.sqrt(dx*dx + dy*dy);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">// main函数示例，void表示此函数无return，static表示全局或者静态之意，被static修饰的变量和方法独立于该类的任何对象，可以直接通过类名访问，无需构造新的Point。</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(string[] args)</span> </span>&#123;</span><br><span class="line">        <span class="comment">// 构造Point的实例：new Point(a, b)</span></span><br><span class="line">        Point p1 = <span class="keyword">new</span> Point(<span class="number">3</span>, <span class="number">4</span>);</span><br><span class="line">        Point p2 = <span class="keyword">new</span> Point(<span class="number">6</span>, <span class="number">8</span>);</span><br><span class="line">        <span class="comment">// println是将输出的参数显示在命令窗口，并在结尾加上换行符，将输出光标定位在下一行的开始。</span></span><br><span class="line">        System.out.println(p1.distance(p2));</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<br>
-
-<h1 id="成员变量的访问权限"><a href="#成员变量的访问权限" class="headerlink" title="成员变量的访问权限"></a>成员变量的访问权限</h1><table>
-<thead>
-<tr>
-<th>权限定义</th>
-<th>解释</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>public</td>
-<td>凡是被public修饰的成员变量，都称为公共变量，它可以被任何类所访问。即允许该变量所属的类中所有方法访问，也允许其他类在外部访问。</td>
-</tr>
-<tr>
-<td>private</td>
-<td>凡是被private修饰的成员变量，都称为私有变量。它只允许在本类的内部访问，任何外部类都不能访问它。</td>
-</tr>
-<tr>
-<td>protected</td>
-<td>凡是被protected修饰的变量，都被称为保护变量。除了允许在本类的内部访问之外，还允许它的子类以及同一个包中的其他类访问。子类是指从该类派生出来的类。包是Java中用于管理类的一种松散的集合。（子类和包以后会细讲）</td>
-</tr>
-</tbody></table>
-
+<h1 id="乐谱PDF"><a href="#乐谱PDF" class="headerlink" title="乐谱PDF"></a>乐谱PDF</h1><div align="middle">
+    <embed src="Asphodelus -アスフォデルス- - 完整乐谱.pdf" type="application/pdf" width="100%" height="800px" internalinstanceid="81" />
+</div>
       
     </div>
 
@@ -380,7 +293,7 @@
 
   
   <nav class="pagination">
-    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><span class="space">&hellip;</span><a class="page-number" href="/page/8/">8</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
+    <a class="extend prev" rel="prev" href="/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><span class="space">&hellip;</span><a class="page-number" href="/page/8/">8</a><a class="extend next" rel="next" href="/page/3/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
   </nav>
 
 
