@@ -36,14 +36,15 @@
 <meta property="og:image" content="https://charlesqueen.github.io/resources/manong.jpg">
 <meta property="og:image" content="https://charlesqueen.github.io/resources/github_id.png">
 <meta property="og:image" content="https://charlesqueen.github.io/resources/p1.png">
-<meta property="og:image" content="https://charlesqueen.github.io/resources/p1.png">
+<meta property="og:image" content="https://charlesqueen.github.io/resources/p2.png">
+<meta property="og:image" content="https://charlesqueen.github.io/resources/p3.png">
 <meta property="og:image" content="https://charlesqueen.github.io/resources/link_error.png">
 <meta property="article:published_time" content="2020-05-21T15:12:46.000Z">
-<meta property="article:modified_time" content="2021-08-12T13:16:57.418Z">
+<meta property="article:modified_time" content="2021-08-12T13:31:50.491Z">
 <meta property="article:author" content="Charles Queen">
+<meta property="article:tag" content="script">
 <meta property="article:tag" content="Blog">
 <meta property="article:tag" content="Hexo">
-<meta property="article:tag" content="script">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://charlesqueen.github.io/resources/金曜日のおはよう.jpg">
 
@@ -244,7 +245,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-08-12 21:16:57" itemprop="dateModified" datetime="2021-08-12T21:16:57+08:00">2021-08-12</time>
+                <time title="修改时间：2021-08-12 21:31:50" itemprop="dateModified" datetime="2021-08-12T21:31:50+08:00">2021-08-12</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -382,9 +383,45 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">SSH:</span><br><span class="line">git@github.com:your_github_id/your_github_id.github.io.git</span><br><span class="line">repo:</span><br><span class="line">https://github.com/your_github_id/your_github_id.github.io.git</span><br></pre></td></tr></table></figure>
 
 <ul>
-<li>接下来点击右侧设置（Settings）。向下找到Gihub Pages,点击 Launch automatic page generator ，Github将会自动替你创建出一个pages的页面。 如果配置没有问题，大约几分钟之后，your_github_id.github.io这个网址就可以正常访问了。</li>
+<li>接下来点击右侧设置（Settings）。向下找到Gihub Pages,点击 Launch automatic page generator ，Github将会自动替你创建出一个pages的页面。 如果配置没有问题，大约几分钟之后，your_github_id.github.io这个网址就可以正常访问了。顺带，推荐强制开启https，可以更好地保护你的博客网站。</li>
 </ul>
-<p><img src="/resources/p1.png"></p>
+<p><img src="/resources/p2.png"></p>
+<h2 id="Hexo安装"><a href="#Hexo安装" class="headerlink" title="Hexo安装"></a>Hexo安装</h2><ul>
+<li>找一个没有小电影的合适位置，比如 <font color=red>E:/hexo/</font>，安装 hexo-cli，鼠标右键在指定目录下怼开Git Bash进行输入（懒得找新建文件夹目录的建议cd）：</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> /e/hexo/</span><br><span class="line">npm install hexo-cli -g</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>再安装Hexo本体：</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>安装完成后进行检查：</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo -v</span><br></pre></td></tr></table></figure>
+<p><img src="/resources/p3.png"></p>
+<ul>
+<li>接着，初始化博客：</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo init blog</span><br><span class="line"><span class="built_in">cd</span> /e/hexo/blog/</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>生成静态文件</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>将静态网页文件部署在远程网页中</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>临时展示（localhost:4000）</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+
+
 <br>
 
 <h1 id="Hexo常用代码备注"><a href="#Hexo常用代码备注" class="headerlink" title="Hexo常用代码备注"></a>Hexo常用代码备注</h1><h3 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo-cli </span><br></pre></td></tr></table></figure>
@@ -396,12 +433,6 @@
 <h3 id="撰写新博客文章"><a href="#撰写新博客文章" class="headerlink" title="撰写新博客文章"></a>撰写新博客文章</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;The name of your new post&quot;</span></span><br></pre></td></tr></table></figure>
 
 <h3 id="post-md文件内常用指令"><a href="#post-md文件内常用指令" class="headerlink" title="post.md文件内常用指令"></a>post.md文件内常用指令</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">&lt;!--这玩意儿供你插入图片，歌名和与文章相应的循环播放的歌曲用的。--&gt;</span><br><span class="line">&lt;!--在搞这个之前记得把hexo的config文件中的post_asset_folder的布尔值改为<span class="literal">true</span>。--&gt;</span><br><span class="line">&lt;!--这样以后，<span class="built_in">source</span>/_post/路径下会在你新建post的时候生成一个供你存放音源图源的文件夹。--&gt;</span><br><span class="line"></span><br><span class="line">&lt;div align=<span class="string">&quot;middle&quot;</span>&gt;</span><br><span class="line">	&lt;img src=<span class="string">&quot;xxxx唱片图片.jpg&quot;</span> width=<span class="string">&quot;50%&quot;</span> height=<span class="string">&quot;50%&quot;</span> title=<span class="string">&quot;xxxx歌名&quot;</span> alt=<span class="string">&quot;&quot;</span>/&gt;</span><br><span class="line">	&lt;audio src=<span class="string">&quot;xxxx.mp3&quot;</span> style=<span class="string">&quot;max-height :100%; max-width: 100%; display: block; margin-left: auto; margin-right: auto;&quot;</span> controls=<span class="string">&quot;controls&quot;</span> autoplay=<span class="string">&quot;autoplay&quot;</span> loop=<span class="string">&quot;loop&quot;</span> preload=<span class="string">&quot;meta&quot;</span>&gt;</span><br><span class="line">	&lt;/audio&gt;</span><br><span class="line">&lt;/div&gt;</span><br><span class="line"></span><br><span class="line">&lt;！--简单的空行指令--&gt;</span><br><span class="line"></span><br><span class="line">&lt;br&gt;</span><br></pre></td></tr></table></figure>
-
-<h3 id="生成静态文件"><a href="#生成静态文件" class="headerlink" title="生成静态文件"></a>生成静态文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ hexo g</span><br></pre></td></tr></table></figure>
-
-<h3 id="将静态网页文件部署在远程网页中"><a href="#将静态网页文件部署在远程网页中" class="headerlink" title="将静态网页文件部署在远程网页中"></a>将静态网页文件部署在远程网页中</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
-
-<h3 id="临时展示（localhost-4000）"><a href="#临时展示（localhost-4000）" class="headerlink" title="临时展示（localhost:4000）"></a>临时展示（localhost:4000）</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo s</span><br></pre></td></tr></table></figure>
 
 <h3 id="关于主页不完全显示文章的方法"><a href="#关于主页不完全显示文章的方法" class="headerlink" title="关于主页不完全显示文章的方法"></a>关于主页不完全显示文章的方法</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">在index.md里加上 description:</span><br><span class="line"></span><br><span class="line">例子：</span><br><span class="line">---</span><br><span class="line">title: Hexo常用博客更新代码</span><br><span class="line">date: 2020-05-21 23:12:46</span><br><span class="line">description: 随缘更新的Hexo博客的一些基本构建操作。</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
 
@@ -434,9 +465,9 @@
 
       <footer class="post-footer">
           <div class="post-tags">
+              <a href="/tags/script/" rel="tag"># script</a>
               <a href="/tags/Blog/" rel="tag"># Blog</a>
               <a href="/tags/Hexo/" rel="tag"># Hexo</a>
-              <a href="/tags/script/" rel="tag"># script</a>
           </div>
 
         
@@ -511,7 +542,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%BC%95%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">引言</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2%E5%B7%A5%E4%BD%9C"><span class="nav-number">2.</span> <span class="nav-text">环境部署工作</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85node-js"><span class="nav-number">2.1.</span> <span class="nav-text">安装node.js</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A3%80%E6%9F%A5node-js%E7%89%88%E6%9C%AC"><span class="nav-number">2.2.</span> <span class="nav-text">检查node.js版本</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85Git"><span class="nav-number">2.3.</span> <span class="nav-text">安装Git</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Github%E8%B4%A6%E5%8F%B7%E6%B3%A8%E5%86%8C%E4%B8%8E%E4%BB%93%E5%BA%93%E6%90%AD%E5%BB%BA"><span class="nav-number">2.4.</span> <span class="nav-text">Github账号注册与仓库搭建</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Hexo%E5%B8%B8%E7%94%A8%E4%BB%A3%E7%A0%81%E5%A4%87%E6%B3%A8"><span class="nav-number">3.</span> <span class="nav-text">Hexo常用代码备注</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%85Hexo"><span class="nav-number">3.0.1.</span> <span class="nav-text">安装Hexo</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BDNext%E6%9C%80%E6%96%B0%E4%B8%BB%E9%A2%98%E6%A1%86%E6%9E%B6"><span class="nav-number">3.0.2.</span> <span class="nav-text">下载Next最新主题框架</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%9D%E5%A7%8B%E5%8C%96%E5%8D%9A%E5%AE%A2"><span class="nav-number">3.0.3.</span> <span class="nav-text">初始化博客</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%92%B0%E5%86%99%E6%96%B0%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0"><span class="nav-number">3.0.4.</span> <span class="nav-text">撰写新博客文章</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#post-md%E6%96%87%E4%BB%B6%E5%86%85%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4"><span class="nav-number">3.0.5.</span> <span class="nav-text">post.md文件内常用指令</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%94%9F%E6%88%90%E9%9D%99%E6%80%81%E6%96%87%E4%BB%B6"><span class="nav-number">3.0.6.</span> <span class="nav-text">生成静态文件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B0%86%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5%E6%96%87%E4%BB%B6%E9%83%A8%E7%BD%B2%E5%9C%A8%E8%BF%9C%E7%A8%8B%E7%BD%91%E9%A1%B5%E4%B8%AD"><span class="nav-number">3.0.7.</span> <span class="nav-text">将静态网页文件部署在远程网页中</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%B4%E6%97%B6%E5%B1%95%E7%A4%BA%EF%BC%88localhost-4000%EF%BC%89"><span class="nav-number">3.0.8.</span> <span class="nav-text">临时展示（localhost:4000）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%B3%E4%BA%8E%E4%B8%BB%E9%A1%B5%E4%B8%8D%E5%AE%8C%E5%85%A8%E6%98%BE%E7%A4%BA%E6%96%87%E7%AB%A0%E7%9A%84%E6%96%B9%E6%B3%95"><span class="nav-number">3.0.9.</span> <span class="nav-text">关于主页不完全显示文章的方法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%B3%E4%BA%8ENext%E4%B8%BB%E9%A2%987-80%E7%89%88%E6%9C%AC%E4%B8%AD%E6%96%87%E6%A0%87%E9%A2%98%E7%9A%84%E9%93%BE%E6%8E%A5%E6%97%A0%E6%B3%95%E8%B7%B3%E8%BD%AC%E7%9A%84%E9%97%AE%E9%A2%98"><span class="nav-number">3.0.10.</span> <span class="nav-text">关于Next主题7.80版本中文标题的链接无法跳转的问题</span></a></li></ol></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%BC%95%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">引言</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2%E5%B7%A5%E4%BD%9C"><span class="nav-number">2.</span> <span class="nav-text">环境部署工作</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85node-js"><span class="nav-number">2.1.</span> <span class="nav-text">安装node.js</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A3%80%E6%9F%A5node-js%E7%89%88%E6%9C%AC"><span class="nav-number">2.2.</span> <span class="nav-text">检查node.js版本</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85Git"><span class="nav-number">2.3.</span> <span class="nav-text">安装Git</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Github%E8%B4%A6%E5%8F%B7%E6%B3%A8%E5%86%8C%E4%B8%8E%E4%BB%93%E5%BA%93%E6%90%AD%E5%BB%BA"><span class="nav-number">2.4.</span> <span class="nav-text">Github账号注册与仓库搭建</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo%E5%AE%89%E8%A3%85"><span class="nav-number">2.5.</span> <span class="nav-text">Hexo安装</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Hexo%E5%B8%B8%E7%94%A8%E4%BB%A3%E7%A0%81%E5%A4%87%E6%B3%A8"><span class="nav-number">3.</span> <span class="nav-text">Hexo常用代码备注</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%85Hexo"><span class="nav-number">3.0.1.</span> <span class="nav-text">安装Hexo</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BDNext%E6%9C%80%E6%96%B0%E4%B8%BB%E9%A2%98%E6%A1%86%E6%9E%B6"><span class="nav-number">3.0.2.</span> <span class="nav-text">下载Next最新主题框架</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%9D%E5%A7%8B%E5%8C%96%E5%8D%9A%E5%AE%A2"><span class="nav-number">3.0.3.</span> <span class="nav-text">初始化博客</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%92%B0%E5%86%99%E6%96%B0%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0"><span class="nav-number">3.0.4.</span> <span class="nav-text">撰写新博客文章</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#post-md%E6%96%87%E4%BB%B6%E5%86%85%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4"><span class="nav-number">3.0.5.</span> <span class="nav-text">post.md文件内常用指令</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%B3%E4%BA%8E%E4%B8%BB%E9%A1%B5%E4%B8%8D%E5%AE%8C%E5%85%A8%E6%98%BE%E7%A4%BA%E6%96%87%E7%AB%A0%E7%9A%84%E6%96%B9%E6%B3%95"><span class="nav-number">3.0.6.</span> <span class="nav-text">关于主页不完全显示文章的方法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%B3%E4%BA%8ENext%E4%B8%BB%E9%A2%987-80%E7%89%88%E6%9C%AC%E4%B8%AD%E6%96%87%E6%A0%87%E9%A2%98%E7%9A%84%E9%93%BE%E6%8E%A5%E6%97%A0%E6%B3%95%E8%B7%B3%E8%BD%AC%E7%9A%84%E9%97%AE%E9%A2%98"><span class="nav-number">3.0.7.</span> <span class="nav-text">关于Next主题7.80版本中文标题的链接无法跳转的问题</span></a></li></ol></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
