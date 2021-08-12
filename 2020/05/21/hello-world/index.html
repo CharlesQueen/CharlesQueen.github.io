@@ -22,15 +22,16 @@
 
   <meta name="description" content="随缘更新的Hexo博客的一些基本构建操作。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hexo常用博客更新代码">
+<meta property="og:title" content="Hexo搭建步骤与问题优化（1）">
 <meta property="og:url" content="https://charlesqueen.github.io/2020/05/21/hello-world/index.html">
 <meta property="og:site_name" content="Charles的ACG博客">
 <meta property="og:description" content="随缘更新的Hexo博客的一些基本构建操作。">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://charlesqueen.github.io/resources/金曜日のおはよう.jpg">
+<meta property="og:image" content="https://charlesqueen.github.io/resources/nodejs.png">
 <meta property="og:image" content="https://charlesqueen.github.io/resources/link_error.png">
 <meta property="article:published_time" content="2020-05-21T15:12:46.000Z">
-<meta property="article:modified_time" content="2021-08-11T15:57:17.306Z">
+<meta property="article:modified_time" content="2021-08-12T11:55:19.341Z">
 <meta property="article:author" content="Charles Queen">
 <meta property="article:tag" content="Blog">
 <meta property="article:tag" content="Hexo">
@@ -51,7 +52,7 @@
   };
 </script>
 
-  <title>Hexo常用博客更新代码 | Charles的ACG博客</title>
+  <title>Hexo搭建步骤与问题优化（1） | Charles的ACG博客</title>
   
 
 
@@ -218,7 +219,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Hexo常用博客更新代码
+          Hexo搭建步骤与问题优化（1）
         </h1>
 
         <div class="post-meta">
@@ -235,7 +236,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-08-11 23:57:17" itemprop="dateModified" datetime="2021-08-11T23:57:17+08:00">2021-08-11</time>
+                <time title="修改时间：2021-08-12 19:55:19" itemprop="dateModified" datetime="2021-08-12T19:55:19+08:00">2021-08-12</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -274,6 +275,49 @@
 
 <br>
 
+<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><ul>
+<li>本人大概是从大四毕业后到研究生入学前的这段时间开始玩 Hexo + Github + Next主题 的博客搭建的。觉得感兴趣了就入坑个四五天，之后连续半年时间不会再看这个破烂博客。但最近由于心血来潮而重拾Hexo博客之后，发现很多东西和原本的不大一样了。Hexo已经更新到了 <font color=red>5.0+</font> 的版本，Next主题也有了 <font color=red>7.80</font> 之类的最新版。为了可以与时俱进，不再因为博客版本更新的问题而导致自己丈二和尚摸不着头脑，本菜鸡决定定时更新Hexo博客的搭建教程。</li>
+</ul>
+<br>
+
+<h1 id="环境部署工作"><a href="#环境部署工作" class="headerlink" title="环境部署工作"></a>环境部署工作</h1><h2 id="安装node-js"><a href="#安装node-js" class="headerlink" title="安装node.js"></a>安装node.js</h2><ul>
+<li>总的来说，Hexo博客利用的是node.js的环境来进行搭建的，目前不同Hexo版本对应的node.js版本的表格如下：</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Hexo 版本</th>
+<th>最低兼容 Node.js 版本</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>5.0+</td>
+<td>10.13.0</td>
+</tr>
+<tr>
+<td>4.1-4.2</td>
+<td>8.10</td>
+</tr>
+<tr>
+<td>4.0</td>
+<td>8.6</td>
+</tr>
+<tr>
+<td>2.2-3.9</td>
+<td>6.9</td>
+</tr>
+<tr>
+<td>3.2-3.3</td>
+<td>0.12</td>
+</tr>
+</tbody></table>
+<ul>
+<li>剩下的低版本我就不一一列举出来了。就个人而言，不同于科研工作的pytorch、tensorflow的工具包需要稳定版本，Hexo博客的版本还是越新越好，不然上传博客容易出现各种报错的问题。</li>
+</ul>
+<p><img src="/resources/nodejs.png"></p>
+<p>下面是node.js官网的链接，直接下载安装即可。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://nodejs.org/zh-cn/</span><br></pre></td></tr></table></figure>
+
 <h2 id="Hexo常用代码备注"><a href="#Hexo常用代码备注" class="headerlink" title="Hexo常用代码备注"></a>Hexo常用代码备注</h2><h3 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo-cli </span><br></pre></td></tr></table></figure>
 
 <h3 id="下载Next最新主题框架"><a href="#下载Next最新主题框架" class="headerlink" title="下载Next最新主题框架"></a>下载Next最新主题框架</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> your-hexo-site</span><br><span class="line">$ git <span class="built_in">clone</span> https://github.com/iissnan/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure>
@@ -310,7 +354,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
-    <a href="https://charlesqueen.github.io/2020/05/21/hello-world/" title="Hexo常用博客更新代码">https://charlesqueen.github.io/2020/05/21/hello-world/</a>
+    <a href="https://charlesqueen.github.io/2020/05/21/hello-world/" title="Hexo搭建步骤与问题优化（1）">https://charlesqueen.github.io/2020/05/21/hello-world/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
@@ -398,7 +442,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo%E5%B8%B8%E7%94%A8%E4%BB%A3%E7%A0%81%E5%A4%87%E6%B3%A8"><span class="nav-number">1.</span> <span class="nav-text">Hexo常用代码备注</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%85Hexo"><span class="nav-number">1.1.</span> <span class="nav-text">安装Hexo</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BDNext%E6%9C%80%E6%96%B0%E4%B8%BB%E9%A2%98%E6%A1%86%E6%9E%B6"><span class="nav-number">1.2.</span> <span class="nav-text">下载Next最新主题框架</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%9D%E5%A7%8B%E5%8C%96%E5%8D%9A%E5%AE%A2"><span class="nav-number">1.3.</span> <span class="nav-text">初始化博客</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%92%B0%E5%86%99%E6%96%B0%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0"><span class="nav-number">1.4.</span> <span class="nav-text">撰写新博客文章</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#post-md%E6%96%87%E4%BB%B6%E5%86%85%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4"><span class="nav-number">1.5.</span> <span class="nav-text">post.md文件内常用指令</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%94%9F%E6%88%90%E9%9D%99%E6%80%81%E6%96%87%E4%BB%B6"><span class="nav-number">1.6.</span> <span class="nav-text">生成静态文件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B0%86%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5%E6%96%87%E4%BB%B6%E9%83%A8%E7%BD%B2%E5%9C%A8%E8%BF%9C%E7%A8%8B%E7%BD%91%E9%A1%B5%E4%B8%AD"><span class="nav-number">1.7.</span> <span class="nav-text">将静态网页文件部署在远程网页中</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%B4%E6%97%B6%E5%B1%95%E7%A4%BA%EF%BC%88localhost-4000%EF%BC%89"><span class="nav-number">1.8.</span> <span class="nav-text">临时展示（localhost:4000）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%B3%E4%BA%8E%E4%B8%BB%E9%A1%B5%E4%B8%8D%E5%AE%8C%E5%85%A8%E6%98%BE%E7%A4%BA%E6%96%87%E7%AB%A0%E7%9A%84%E6%96%B9%E6%B3%95"><span class="nav-number">1.9.</span> <span class="nav-text">关于主页不完全显示文章的方法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%B3%E4%BA%8ENext%E4%B8%BB%E9%A2%987-80%E7%89%88%E6%9C%AC%E4%B8%AD%E6%96%87%E6%A0%87%E9%A2%98%E7%9A%84%E9%93%BE%E6%8E%A5%E6%97%A0%E6%B3%95%E8%B7%B3%E8%BD%AC%E7%9A%84%E9%97%AE%E9%A2%98"><span class="nav-number">1.10.</span> <span class="nav-text">关于Next主题7.80版本中文标题的链接无法跳转的问题</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%BC%95%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">引言</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2%E5%B7%A5%E4%BD%9C"><span class="nav-number">2.</span> <span class="nav-text">环境部署工作</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85node-js"><span class="nav-number">2.1.</span> <span class="nav-text">安装node.js</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo%E5%B8%B8%E7%94%A8%E4%BB%A3%E7%A0%81%E5%A4%87%E6%B3%A8"><span class="nav-number">2.2.</span> <span class="nav-text">Hexo常用代码备注</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%85Hexo"><span class="nav-number">2.2.1.</span> <span class="nav-text">安装Hexo</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BDNext%E6%9C%80%E6%96%B0%E4%B8%BB%E9%A2%98%E6%A1%86%E6%9E%B6"><span class="nav-number">2.2.2.</span> <span class="nav-text">下载Next最新主题框架</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%9D%E5%A7%8B%E5%8C%96%E5%8D%9A%E5%AE%A2"><span class="nav-number">2.2.3.</span> <span class="nav-text">初始化博客</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%92%B0%E5%86%99%E6%96%B0%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0"><span class="nav-number">2.2.4.</span> <span class="nav-text">撰写新博客文章</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#post-md%E6%96%87%E4%BB%B6%E5%86%85%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4"><span class="nav-number">2.2.5.</span> <span class="nav-text">post.md文件内常用指令</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%94%9F%E6%88%90%E9%9D%99%E6%80%81%E6%96%87%E4%BB%B6"><span class="nav-number">2.2.6.</span> <span class="nav-text">生成静态文件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B0%86%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5%E6%96%87%E4%BB%B6%E9%83%A8%E7%BD%B2%E5%9C%A8%E8%BF%9C%E7%A8%8B%E7%BD%91%E9%A1%B5%E4%B8%AD"><span class="nav-number">2.2.7.</span> <span class="nav-text">将静态网页文件部署在远程网页中</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%B4%E6%97%B6%E5%B1%95%E7%A4%BA%EF%BC%88localhost-4000%EF%BC%89"><span class="nav-number">2.2.8.</span> <span class="nav-text">临时展示（localhost:4000）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%B3%E4%BA%8E%E4%B8%BB%E9%A1%B5%E4%B8%8D%E5%AE%8C%E5%85%A8%E6%98%BE%E7%A4%BA%E6%96%87%E7%AB%A0%E7%9A%84%E6%96%B9%E6%B3%95"><span class="nav-number">2.2.9.</span> <span class="nav-text">关于主页不完全显示文章的方法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%B3%E4%BA%8ENext%E4%B8%BB%E9%A2%987-80%E7%89%88%E6%9C%AC%E4%B8%AD%E6%96%87%E6%A0%87%E9%A2%98%E7%9A%84%E9%93%BE%E6%8E%A5%E6%97%A0%E6%B3%95%E8%B7%B3%E8%BD%AC%E7%9A%84%E9%97%AE%E9%A2%98"><span class="nav-number">2.2.10.</span> <span class="nav-text">关于Next主题7.80版本中文标题的链接无法跳转的问题</span></a></li></ol></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 

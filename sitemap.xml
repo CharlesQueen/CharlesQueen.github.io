@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://charlesqueen.github.io/2020/05/21/hello-world/</loc>
+    
+    <lastmod>2021-08-12</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://charlesqueen.github.io/2020/06/08/rec-2/</loc>
     
     <lastmod>2021-08-12</lastmod>
@@ -26,13 +33,6 @@
     <loc>https://charlesqueen.github.io/2021/08/11/Java-Learning-Note-1/</loc>
     
     <lastmod>2021-08-12</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://charlesqueen.github.io/2020/05/21/hello-world/</loc>
-    
-    <lastmod>2021-08-11</lastmod>
     
   </url>
   
