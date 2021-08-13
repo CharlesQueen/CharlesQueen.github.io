@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>Google收录Github Pages静态网页</title>
+      <link href="/2021/08/13/problem-of-next-2/"/>
+      <url>/2021/08/13/problem-of-next-2/</url>
+      
+        <content type="html"><![CDATA[<div align="middle">    <img src="/resources/君という神話.jpg" width="50%" height="50%" title="金曜日のおはよう -Another Story-" alt=""/>    <audio src="/resources/やなぎなぎ - 君という神話.mp3" style="max-height :100%; max-width: 100%; display: block; margin-left: auto; margin-right: auto;" controls="controls" autoplay="autoplay" loop="loop" preload="meta">    </audio></div><br><h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><ul><li>写博客一方面的是为了记录自己的爱好，另一方面也是为了让别人看到自己的兴趣，结交志趣相近之人。所以，让搜索引擎可以搜索到自己制作的静态网页就显得比较重要。</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> script </tag>
+            
+            <tag> Blog </tag>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hexo人数统计插件不蒜子问题修补</title>
       <link href="/2021/08/13/prblem-of-next-1/"/>
       <url>/2021/08/13/prblem-of-next-1/</url>
