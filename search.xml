@@ -8,7 +8,7 @@
       <link href="/2021/08/13/problem-of-next-2/"/>
       <url>/2021/08/13/problem-of-next-2/</url>
       
-        <content type="html"><![CDATA[<div align="middle">    <img src="/resources/君という神話.jpg" width="50%" height="50%" title="金曜日のおはよう -Another Story-" alt=""/>    <audio src="/resources/やなぎなぎ - 君という神話.mp3" style="max-height :100%; max-width: 100%; display: block; margin-left: auto; margin-right: auto;" controls="controls" autoplay="autoplay" loop="loop" preload="meta">    </audio></div><br><h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><ul><li>写博客一方面的是为了记录自己的爱好，另一方面也是为了让别人看到自己的兴趣，结交志趣相近之人。所以，让搜索引擎可以搜索到自己制作的静态网页就显得比较重要。废话不多说，让我们立刻进入正题。</li></ul><h1 id="Google-Search-Console设置"><a href="#Google-Search-Console设置" class="headerlink" title="Google Search Console设置"></a>Google Search Console设置</h1><h2 id="检查你的静态网页是否能被Google搜索到"><a href="#检查你的静态网页是否能被Google搜索到" class="headerlink" title="检查你的静态网页是否能被Google搜索到"></a>检查你的静态网页是否能被Google搜索到</h2><ul><li>一般没有自己注册域名，而是用的 <code>your_github_id.github.io</code> 的域名的话，通常不会一开始就被 <code>Google</code> 搜索引擎收录。但是为了以防万一，你可以在Google浏览器的搜索框内键入如下形式的搜索内容：</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">site:https://your_github_id.github.io/</span><br></pre></td></tr></table></figure><p><img src="/resources/p13.png"></p><ul><li>如果你在搜索后发现什么都没有跳出来，只有孤零零的一句 <code>尝试使用 Google Search Console</code> ，可能还混有些其他的无关链接的话，那么就老老实实地做好设置 <code>Google Search Console</code> 的准备。</li></ul><h2 id="搜索资源提交"><a href="#搜索资源提交" class="headerlink" title="搜索资源提交"></a>搜索资源提交</h2><ul><li><p>在确认自己要重头开始后，可以点击网页 <a href="https://search.google.com/search-console?utm_source=wmx&utm_medium=deprecation-pane&utm_content=home&resource_id=https://charlesqueen.github.io/#utm_source=zh-CN-wmxmsg&utm_medium=wmxmsg&utm_campaign=bm&authuser=0">Google Search Console</a> 进行配置。</p></li><li><p>在进入网页后，<code>Google Search Console</code> 会立刻弹出一个框，让你提交你的提交搜索资源，也就是你的博客网址。通常我们选用的是图片右侧的方法，也就是通过网址前缀进行搜索。</p></li></ul><p><img src="/resources/p14.png"></p><ul><li>在右侧的空栏内输入 <code>https://your_github_id.github.io/</code>。随后资源会被载入，<code>Google Search Console</code> 会要求你立刻进行资源验证，也就是证明你是该网页的所有者。如图所示，它会提供四种验证方法，主流的两种分别为添加 <code>html</code> 文件或是在首页添加一段 <code>html</code> 验证代码。这里首推在首页添加一段 <code>html</code> 验证代码的验证方式。</li></ul><p><img src="/resources/p15.png"></p><ul><li>因为我使用的是 <code>Next 7.80</code> 主题下的 <code>Hexo</code> 博客，所以我的添加方式与其他博客网页稍稍有点不同。通常的博客只要在首页的 <code>.md</code> 文件或是 <code>.html</code> 文件里直接添加验证码即可，但是我的博客添加验证码的位置比较特殊。目录为：<code>\blog\themes\next\layout\_partials\head\head.swig</code>。添加的方式简单粗暴，直接进行如下操作即可，同为<code>Next 7.80</code> 主题博客大佬们可以参考：</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&lt;meta charset=<span class="string">&quot;UTF-8&quot;</span>&gt;</span><br><span class="line">&lt;!--插这儿--&gt;</span><br><span class="line">&lt;meta name=<span class="string">&quot;google-site-verification&quot;</span> content=<span class="string">&quot;这里是你的验证码。做过上述步骤的话，Google Search Console会替你自动生成。&quot;</span> /&gt;</span><br><span class="line">&lt;meta name=<span class="string">&quot;viewport&quot;</span> content=<span class="string">&quot;width=device-width, initial-scale=1, maximum-scale=2&quot;</span>&gt;</span><br><span class="line">&lt;meta name=<span class="string">&quot;theme-color&quot;</span> content=<span class="string">&quot;&#123;&#123; theme.android_chrome_color &#125;&#125;&quot;</span>&gt;</span><br><span class="line">&lt;meta name=<span class="string">&quot;generator&quot;</span> content=<span class="string">&quot;Hexo &#123;&#123; hexo_version &#125;&#125;&quot;</span>&gt;</span><br></pre></td></tr></table></figure><ul><li>在插完以后，点击保存，利用 <code>hexo clean/g/d</code> 命令三件套重新布置网页。之后在 <code>Google Search Console</code> 的验证页面点击验证。成功的话就可以进入下一步。</li></ul><h2 id="Sitemap的生成和提交"><a href="#Sitemap的生成和提交" class="headerlink" title="Sitemap的生成和提交"></a>Sitemap的生成和提交</h2><h3 id="生成"><a href="#生成" class="headerlink" title="生成"></a>生成</h3><ul><li>首先，为你的 <code>Hexo</code> 博客安装可以生成 <code>Sitemap</code> 的 <code>hexo-generator-sitemap</code> 插件。安装须在博客根目录下进行，安装指令如下：</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-sitemap --save</span><br></pre></td></tr></table></figure><ul><li>随后，前往 <code>Hexo</code> 博客根目录下的 <code>_config.yml</code> 去进行以下代码的修改：</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># automatically generate sitemap</span></span><br><span class="line">sitemap:</span><br><span class="line">  path: sitemap.xml</span><br></pre></td></tr></table></figure><ul><li>在改完以后，点击保存，利用 <code>hexo clean/g/d</code> 命令三件套重新布置网页。之后，即可在 <code>public</code> 目录下看到 <code>sitemap.xml</code> 文件了。</li></ul><p><img src="/resources/p16.png"></p><ul><li>该 <code>sitemap.xml</code> 文件在静态网页中的 <code>URL</code> 则应该是 <code>https://your_github_id.github.io/sitemap.xml</code>。</li></ul><h3 id="提交"><a href="#提交" class="headerlink" title="提交"></a>提交</h3><ul><li>这一步操作很简单，直接点击 <code>Google Search Console</code> 网页侧边栏上的 <code>Sitemaps</code>。之后在其中输入你<code>sitemap.xml</code> 文件的 <code>URL</code> 即可。如果提交成功，则会有 <code>success</code> 的提示。要记住，提交完<code>sitemap.xml</code> 文件以后，你的网页并不会立刻被 <code>Google</code> 搜索引擎收录，<code>第一次提交通常需要等待五六天左右甚至更长的时间</code>。之后可以点击侧边栏的 <code>Links</code> 或者 <code>Coverage</code> 进行查看。</li></ul><p><img src="/resources/p17.png"></p>]]></content>
+        <content type="html"><![CDATA[<div align="middle">    <img src="/resources/君という神話.jpg" width="50%" height="50%" title="金曜日のおはよう -Another Story-" alt=""/>    <audio src="/resources/やなぎなぎ - 君という神話.mp3" style="max-height :100%; max-width: 100%; display: block; margin-left: auto; margin-right: auto;" controls="controls" autoplay="autoplay" loop="loop" preload="meta">    </audio></div><br><h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><ul><li>写博客一方面的是为了记录自己的爱好，另一方面也是为了让别人看到自己的兴趣，结交志趣相近之人。所以，让搜索引擎可以搜索到自己制作的静态网页就显得比较重要。废话不多说，让我们立刻进入正题。</li></ul><h1 id="Google-Search-Console设置"><a href="#Google-Search-Console设置" class="headerlink" title="Google Search Console设置"></a>Google Search Console设置</h1><h2 id="检查你的静态网页是否能被Google搜索到"><a href="#检查你的静态网页是否能被Google搜索到" class="headerlink" title="检查你的静态网页是否能被Google搜索到"></a>检查你的静态网页是否能被Google搜索到</h2><ul><li>一般没有自己注册域名，而是用的 <code>your_github_id.github.io</code> 的域名的话，通常不会一开始就被 <code>Google</code> 搜索引擎收录。但是为了以防万一，你可以在Google浏览器的搜索框内键入如下形式的搜索内容：</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">site:https://your_github_id.github.io/</span><br></pre></td></tr></table></figure><p><img src="/resources/p13.png"></p><ul><li>如果你在搜索后发现什么都没有跳出来，只有孤零零的一句 <code>尝试使用 Google Search Console</code> ，可能还混有些其他的无关链接的话，那么就老老实实地做好设置 <code>Google Search Console</code> 的准备。</li></ul><h2 id="搜索资源提交"><a href="#搜索资源提交" class="headerlink" title="搜索资源提交"></a>搜索资源提交</h2><ul><li><p>在确认自己要重头开始后，可以点击网页 <a href="https://search.google.com/search-console?utm_source=wmx&utm_medium=deprecation-pane&utm_content=home&resource_id=https://charlesqueen.github.io/#utm_source=zh-CN-wmxmsg&utm_medium=wmxmsg&utm_campaign=bm&authuser=0">Google Search Console</a> 进行配置。</p></li><li><p>在进入网页后，<code>Google Search Console</code> 会立刻弹出一个框，让你提交你的提交搜索资源，也就是你的博客网址。通常我们选用的是图片右侧的方法，也就是通过网址前缀进行搜索。</p></li></ul><p><img src="/resources/p14.png"></p><ul><li>在右侧的空栏内输入 <code>https://your_github_id.github.io/</code>。随后资源会被载入，<code>Google Search Console</code> 会要求你立刻进行资源验证，也就是证明你是该网页的所有者。如图所示，它会提供四种验证方法，主流的两种分别为添加 <code>html</code> 文件或是在首页添加一段 <code>html</code> 验证代码。这里首推在首页添加一段 <code>html</code> 验证代码的验证方式。</li></ul><p><img src="/resources/p15.png"></p><ul><li>因为我使用的是 <code>Next 7.80</code> 主题下的 <code>Hexo</code> 博客，所以我的添加方式与其他博客网页稍稍有点不同。通常的博客只要在首页的 <code>.md</code> 文件或是 <code>.html</code> 文件里直接添加验证码即可，但是我的博客添加验证码的位置比较特殊。目录为：<code>\blog\themes\next\layout\_partials\head\head.swig</code>。添加的方式简单粗暴，直接进行如下操作即可，同为<code>Next 7.80</code> 主题博客大佬们可以参考：</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&lt;meta charset=<span class="string">&quot;UTF-8&quot;</span>&gt;</span><br><span class="line">&lt;!--插这儿--&gt;</span><br><span class="line">&lt;meta name=<span class="string">&quot;google-site-verification&quot;</span> content=<span class="string">&quot;这里是你的验证码。做过上述步骤的话，Google Search Console会替你自动生成。&quot;</span> /&gt;</span><br><span class="line">&lt;meta name=<span class="string">&quot;viewport&quot;</span> content=<span class="string">&quot;width=device-width, initial-scale=1, maximum-scale=2&quot;</span>&gt;</span><br><span class="line">&lt;meta name=<span class="string">&quot;theme-color&quot;</span> content=<span class="string">&quot;&#123;&#123; theme.android_chrome_color &#125;&#125;&quot;</span>&gt;</span><br><span class="line">&lt;meta name=<span class="string">&quot;generator&quot;</span> content=<span class="string">&quot;Hexo &#123;&#123; hexo_version &#125;&#125;&quot;</span>&gt;</span><br></pre></td></tr></table></figure><ul><li>在插完以后，点击保存，利用 <code>hexo clean/g/d</code> 命令三件套重新布置网页。之后在 <code>Google Search Console</code> 的验证页面点击验证。成功的话就可以进入下一步。</li></ul><h2 id="Sitemap的生成和提交"><a href="#Sitemap的生成和提交" class="headerlink" title="Sitemap的生成和提交"></a>Sitemap的生成和提交</h2><h3 id="生成"><a href="#生成" class="headerlink" title="生成"></a>生成</h3><ul><li>首先，为你的 <code>Hexo</code> 博客安装可以生成 <code>Sitemap</code> 的 <code>hexo-generator-sitemap</code> 插件。安装须在博客根目录下进行，安装指令如下：</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-sitemap --save</span><br></pre></td></tr></table></figure><ul><li>随后，前往 <code>Hexo</code> 博客根目录下的 <code>_config.yml</code> 去进行以下代码的修改：</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># automatically generate sitemap</span></span><br><span class="line">sitemap:</span><br><span class="line">  path: sitemap.xml</span><br></pre></td></tr></table></figure><ul><li>在改完以后，点击保存，利用 <code>hexo clean/g/d</code> 命令三件套重新布置网页。之后，即可在 <code>public</code> 目录下看到 <code>sitemap.xml</code> 文件了。</li></ul><p><img src="/resources/p16.png"></p><ul><li>该 <code>sitemap.xml</code> 文件在静态网页中的 <code>URL</code> 则应该是 <code>https://your_github_id.github.io/sitemap.xml</code>。</li></ul><h3 id="提交"><a href="#提交" class="headerlink" title="提交"></a>提交</h3><ul><li>这一步操作很简单，直接点击 <code>Google Search Console</code> 网页侧边栏上的 <code>Sitemaps</code>。之后在其中输入你<code>sitemap.xml</code> 文件的 <code>URL</code> 即可。如果提交成功，则会有 <code>success</code> 的提示。要记住，提交完<code>sitemap.xml</code> 文件以后，你的网页并不会立刻被 <code>Google</code> 搜索引擎收录，**<code>第一次提交通常需要等待五六天左右甚至更长的时间</code>**。之后可以点击侧边栏的 <code>Links</code> 或者 <code>Coverage</code> 进行查看。</li></ul><p><img src="/resources/p17.png"></p>]]></content>
       
       
       <categories>
@@ -107,15 +107,15 @@
             
             <tag> ACG </tag>
             
-            <tag> August </tag>
-            
             <tag> Galgame </tag>
-            
-            <tag> Ceui </tag>
             
             <tag> 音乐 </tag>
             
             <tag> 乐谱 </tag>
+            
+            <tag> August </tag>
+            
+            <tag> Ceui </tag>
             
             <tag> 穢翼のユースティア </tag>
             
@@ -148,13 +148,13 @@
             
             <tag> Galgame </tag>
             
-            <tag> 音乐 </tag>
-            
-            <tag> 乐谱 </tag>
-            
             <tag> Innocent Grey </tag>
             
             <tag> MANYO </tag>
+            
+            <tag> 音乐 </tag>
+            
+            <tag> 乐谱 </tag>
             
             <tag> カルタグラ~ツキ狂イノ病 </tag>
             
@@ -210,15 +210,15 @@
       
         <tags>
             
-            <tag> ACG </tag>
+            <tag> 青春 </tag>
             
-            <tag> Galgame </tag>
+            <tag> ACG </tag>
             
             <tag> Key社 </tag>
             
-            <tag> 友情 </tag>
+            <tag> Galgame </tag>
             
-            <tag> 青春 </tag>
+            <tag> 友情 </tag>
             
             <tag> Little Busters </tag>
             
@@ -245,15 +245,15 @@
       
         <tags>
             
-            <tag> ACG </tag>
+            <tag> 青春 </tag>
             
-            <tag> Galgame </tag>
+            <tag> ACG </tag>
             
             <tag> Key社 </tag>
             
-            <tag> 友情 </tag>
+            <tag> Galgame </tag>
             
-            <tag> 青春 </tag>
+            <tag> 友情 </tag>
             
             <tag> Little Busters </tag>
             
